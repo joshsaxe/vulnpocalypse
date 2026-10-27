@@ -1,0 +1,22 @@
+year,cpi_u,source_title,source_url,grade,notes
+2005,195.3,BLS CPI-U annual averages,https://www.bls.gov/cpi/,A,US city average all items 1982-84=100
+2006,201.6,BLS CPI-U annual averages,https://www.bls.gov/cpi/,A,
+2007,207.342,BLS CPI-U annual averages,https://www.bls.gov/cpi/,A,
+2008,215.303,BLS CPI-U annual averages,https://www.bls.gov/cpi/,A,
+2009,214.537,BLS CPI-U annual averages,https://www.bls.gov/cpi/,A,
+2010,218.056,BLS CPI-U annual averages,https://www.bls.gov/cpi/,A,
+2011,224.939,BLS CPI-U annual averages,https://www.bls.gov/cpi/,A,
+2012,229.594,BLS CPI-U annual averages,https://www.bls.gov/cpi/,A,
+2013,232.957,BLS CPI-U annual averages,https://www.bls.gov/cpi/,A,
+2014,236.736,BLS CPI-U annual averages,https://www.bls.gov/cpi/,A,
+2015,237.017,BLS CPI-U annual averages,https://www.bls.gov/cpi/,A,
+2016,240.007,BLS CPI-U annual averages,https://www.bls.gov/cpi/,A,
+2017,245.120,BLS CPI-U annual averages (cross-checked UNM BBER table 245.1),https://bber.unm.edu/data/cpi,A,
+2018,251.107,BLS CPI-U annual averages (UNM BBER 251.1),https://bber.unm.edu/data/cpi,A,
+2019,255.657,BLS CPI-U annual averages (UNM BBER 255.7),https://bber.unm.edu/data/cpi,A,
+2020,258.811,BLS CPI-U annual averages (UNM BBER 258.8),https://bber.unm.edu/data/cpi,A,
+2021,270.970,BLS CPI-U annual averages (UNM BBER 271.0),https://bber.unm.edu/data/cpi,A,
+2022,292.655,BLS CPI-U annual averages (UNM BBER 292.7),https://bber.unm.edu/data/cpi,A,
+2023,304.702,NYSUT CPI fact sheet citing BLS,https://www.nysut.org/-/media/files/nysut/resources/2026/2026_01_21_factsheet_consumerpriceindex.pdf,A,
+2024,313.689,NYSUT CPI fact sheet citing BLS,https://www.nysut.org/-/media/files/nysut/resources/2026/2026_01_21_factsheet_consumerpriceindex.pdf,A,
+2025,321.94,NYSUT CPI fact sheet citing BLS,https://www.nysut.org/-/media/files/nysut/resources/2026/2026_01_21_factsheet_consumerpriceindex.pdf,B,October 2025 not collected (federal funding lapse) so average of 11 months

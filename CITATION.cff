@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the post and this repository."
+title: "If the vulnpocalypse is the apocalypse, where are the demon hordes? Data, code and annotated bibliography"
+type: dataset
+authors:
+  - family-names: Saxe
+    given-names: Joshua
+date-released: 2026-10-27
+version: 1.0.0
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: >-
+  Evidence tables, model code, chart code and an annotated bibliography behind the thirteen figures of the post
+  "If the vulnpocalypse is the apocalypse, where are the demon hordes?": losses to cybercrime, how criminal enterprises
+  end, what crime pays, how far AI can speed up a ransomware gang, how fast criminals and governments adopt new
+  technology, how long state hackers stay hidden, and how defenders compare with attackers. Everything is rebuilt from
+  the tables with one command, and a check compares the rebuilt numbers with the ones in the post.
+keywords:
+  - cybercrime
+  - fraud
+  - artificial intelligence
+  - Bayesian model
+  - technology adoption
+  - vulnerability discovery

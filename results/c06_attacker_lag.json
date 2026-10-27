@@ -1,0 +1,43 @@
+{
+ "class_median_years": {
+  "tool": [
+   2.52,
+   3.92,
+   6.92
+  ],
+  "eco": [
+   3.66,
+   5.87,
+   9.24
+  ]
+ },
+ "class_sigma_median": {
+  "tool": 0.71,
+  "eco": 0.94
+ },
+ "exploit_lags_years": [
+  0.01,
+  0.08
+ ],
+ "rhat": {
+  "tool": [
+   1.0,
+   1.0
+  ],
+  "eco": [
+   1.0,
+   1.0
+  ]
+ },
+ "agentic_elapsed_years": 1.65,
+ "p_agentic_scaled_by": {
+  "2028": 0.143,
+  "2030": 0.354,
+  "2032": 0.511
+ },
+ "p_agentic_scaled_by_if_tool": {
+  "2028": 0.216,
+  "2030": 0.552,
+  "2032": 0.719
+ }
+}

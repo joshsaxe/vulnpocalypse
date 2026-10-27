@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="468pt" height="311.184pt" viewBox="0 0 468 311.184" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 311.184 
+L 468 311.184 
+L 468 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 205.92 229.932 
+L 387.36 229.932 
+L 387.36 88.812 
+L 205.92 88.812 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 232.189419 229.932 
+L 232.189419 88.812 
+" clip-path="url(#pe1671be523)" style="fill: none; stroke: #d3dadf; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="meb05e9516e" d="M 0 0 
+L 0 3 
+" style="stroke: #4d5358; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#meb05e9516e" x="232.189419" y="229.932" style="fill: #4d5358; stroke: #4d5358; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 9px; font-family: 'Inter'; text-anchor: middle; fill: #4d5358" x="232.189419" y="245.15075" transform="rotate(-0 232.189419 245.15075)">$10k</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 319.454538 229.932 
+L 319.454538 88.812 
+" clip-path="url(#pe1671be523)" style="fill: none; stroke: #d3dadf; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#meb05e9516e" x="319.454538" y="229.932" style="fill: #4d5358; stroke: #4d5358; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 9px; font-family: 'Inter'; text-anchor: middle; fill: #4d5358" x="319.454538" y="245.15075" transform="rotate(-0 319.454538 245.15075)">$100k</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_5"/>
+     <g id="text_3">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #121212" x="200.16" y="102.590842" transform="rotate(-0 200.16 102.590842)">NSA and other agencies</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6"/>
+     <g id="text_4">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #4d5358" x="200.16" y="115.537631" transform="rotate(-0 200.16 115.537631)">Private firms</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_7"/>
+     <g id="text_5">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #121212" x="200.16" y="138.841851" transform="rotate(-0 200.16 138.841851)">GCHQ, NCSC</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_8"/>
+     <g id="text_6">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #4d5358" x="200.16" y="151.78864" transform="rotate(-0 200.16 151.78864)">Private firms</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_9"/>
+     <g id="text_7">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #121212" x="200.16" y="175.09286" transform="rotate(-0 200.16 175.09286)">Army, Mossad, Shin Bet*</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_10"/>
+     <g id="text_8">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #4d5358" x="200.16" y="188.039649" transform="rotate(-0 200.16 188.039649)">Private firms</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_11"/>
+     <g id="text_9">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #121212" x="200.16" y="211.343869" transform="rotate(-0 200.16 211.343869)">i-Soon (a contractor), 2022</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_12"/>
+     <g id="text_10">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #4d5358" x="200.16" y="224.290658" transform="rotate(-0 200.16 224.290658)">Private firms</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_13">
+    <path d="M 318.322826 98.522092 
+L 342.192155 98.522092 
+" clip-path="url(#pe1671be523)" style="fill: none; stroke: #8a4fa8; stroke-opacity: 0.3; stroke-width: 4.5"/>
+   </g>
+   <g id="line2d_14">
+    <path d="M 331.00905 111.468881 
+L 376.960514 111.468881 
+" clip-path="url(#pe1671be523)" style="fill: none; stroke: #0fa3c7; stroke-opacity: 0.3; stroke-width: 4.5"/>
+   </g>
+   <g id="line2d_15">
+    <path d="M 292.696884 134.773101 
+L 308.007161 134.773101 
+" clip-path="url(#pe1671be523)" style="fill: none; stroke: #8a4fa8; stroke-opacity: 0.3; stroke-width: 4.5"/>
+   </g>
+   <g id="line2d_16">
+    <path d="M 309.075657 147.71989 
+L 355.198339 147.71989 
+" clip-path="url(#pe1671be523)" style="fill: none; stroke: #0fa3c7; stroke-opacity: 0.3; stroke-width: 4.5"/>
+   </g>
+   <g id="line2d_17">
+    <path d="M 296.120792 171.02411 
+L 313.399017 171.02411 
+" clip-path="url(#pe1671be523)" style="fill: none; stroke: #8a4fa8; stroke-opacity: 0.3; stroke-width: 4.5"/>
+   </g>
+   <g id="line2d_18">
+    <path d="M 317.698417 183.970899 
+L 363.625823 183.970899 
+" clip-path="url(#pe1671be523)" style="fill: none; stroke: #0fa3c7; stroke-opacity: 0.3; stroke-width: 4.5"/>
+   </g>
+   <g id="line2d_19">
+    <path d="M 216.824689 207.275119 
+L 265.918853 207.275119 
+" clip-path="url(#pe1671be523)" style="fill: none; stroke: #8a4fa8; stroke-opacity: 0.3; stroke-width: 4.5"/>
+   </g>
+   <g id="line2d_20">
+    <path d="M 298.828345 220.221908 
+L 344.957332 220.221908 
+" clip-path="url(#pe1671be523)" style="fill: none; stroke: #0fa3c7; stroke-opacity: 0.3; stroke-width: 4.5"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 205.92 229.932 
+L 387.36 229.932 
+" style="fill: none; stroke: #3a3f44; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_21">
+    <defs>
+     <path id="me37733ff64" d="M 0 3.75 
+C 0.994512 3.75 1.948425 3.354876 2.65165 2.65165 
+C 3.354876 1.948425 3.75 0.994512 3.75 0 
+C 3.75 -0.994512 3.354876 -1.948425 2.65165 -2.65165 
+C 1.948425 -3.354876 0.994512 -3.75 0 -3.75 
+C -0.994512 -3.75 -1.948425 -3.354876 -2.65165 -2.65165 
+C -3.354876 -1.948425 -3.75 -0.994512 -3.75 0 
+C -3.75 0.994512 -3.354876 1.948425 -2.65165 2.65165 
+C -1.948425 3.354876 -0.994512 3.75 0 3.75 
+z
+" style="stroke: #ffffff; stroke-width: 1.2"/>
+    </defs>
+    <g clip-path="url(#pe1671be523)">
+     <use xlink:href="#me37733ff64" x="330.26674" y="98.522092" style="fill: #8a4fa8; stroke: #ffffff; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="line2d_22">
+    <defs>
+     <path id="mcaf7b8cbd8" d="M 0 3.75 
+C 0.994512 3.75 1.948425 3.354876 2.65165 2.65165 
+C 3.354876 1.948425 3.75 0.994512 3.75 0 
+C 3.75 -0.994512 3.354876 -1.948425 2.65165 -2.65165 
+C 1.948425 -3.354876 0.994512 -3.75 0 -3.75 
+C -0.994512 -3.75 -1.948425 -3.354876 -2.65165 -2.65165 
+C -3.354876 -1.948425 -3.75 -0.994512 -3.75 0 
+C -3.75 0.994512 -3.354876 1.948425 -2.65165 2.65165 
+C -1.948425 3.354876 -0.994512 3.75 0 3.75 
+z
+" style="stroke: #ffffff; stroke-width: 1.2"/>
+    </defs>
+    <g clip-path="url(#pe1671be523)">
+     <use xlink:href="#mcaf7b8cbd8" x="354.075923" y="111.468881" style="fill: #0fa3c7; stroke: #ffffff; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'Inter'; text-anchor: start; fill: #121212" x="8.64" y="102.687717" transform="rotate(-0 8.64 102.687717)">United States</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Inter'; text-anchor: start; fill: #121212" x="396" y="108.269412" transform="rotate(-0 396 108.269412)">1.9×</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #4d5358" x="414.725625" y="107.905642" transform="rotate(-0 414.725625 107.905642)"> (0.9–3.7)</text>
+   </g>
+   <g id="line2d_23">
+    <g clip-path="url(#pe1671be523)">
+     <use xlink:href="#me37733ff64" x="300.348583" y="134.773101" style="fill: #8a4fa8; stroke: #ffffff; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="line2d_24">
+    <g clip-path="url(#pe1671be523)">
+     <use xlink:href="#mcaf7b8cbd8" x="332.179067" y="147.71989" style="fill: #0fa3c7; stroke: #ffffff; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'Inter'; text-anchor: start; fill: #121212" x="8.64" y="138.938726" transform="rotate(-0 8.64 138.938726)">United Kingdom</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Inter'; text-anchor: start; fill: #121212" x="396" y="144.520421" transform="rotate(-0 396 144.520421)">2.3×</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #4d5358" x="416.386406" y="144.156652" transform="rotate(-0 416.386406 144.156652)"> (1.2–4.4)</text>
+   </g>
+   <g id="line2d_25">
+    <g clip-path="url(#pe1671be523)">
+     <use xlink:href="#me37733ff64" x="304.806627" y="171.02411" style="fill: #8a4fa8; stroke: #ffffff; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="line2d_26">
+    <g clip-path="url(#pe1671be523)">
+     <use xlink:href="#mcaf7b8cbd8" x="340.592183" y="183.970899" style="fill: #0fa3c7; stroke: #ffffff; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'Inter'; text-anchor: start; fill: #121212" x="8.64" y="175.189735" transform="rotate(-0 8.64 175.189735)">Israel</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Inter'; text-anchor: start; fill: #121212" x="396" y="180.77143" transform="rotate(-0 396 180.77143)">2.6×</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #4d5358" x="416.365313" y="180.407661" transform="rotate(-0 416.365313 180.407661)"> (1.3–4.9)</text>
+   </g>
+   <g id="line2d_27">
+    <g clip-path="url(#pe1671be523)">
+     <use xlink:href="#me37733ff64" x="241.340259" y="207.275119" style="fill: #8a4fa8; stroke: #ffffff; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="line2d_28">
+    <g clip-path="url(#pe1671be523)">
+     <use xlink:href="#mcaf7b8cbd8" x="321.92687" y="220.221908" style="fill: #0fa3c7; stroke: #ffffff; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'Inter'; text-anchor: start; fill: #121212" x="8.64" y="211.440744" transform="rotate(-0 8.64 211.440744)">China</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Inter'; text-anchor: start; fill: #121212" x="396" y="217.02244" transform="rotate(-0 396 217.02244)">8.4×</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #4d5358" x="416.871562" y="216.65867" transform="rotate(-0 416.871562 216.65867)"> (3.4–20.4)</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #4d5358" x="396" y="87.83812" transform="rotate(-0 396 87.83812)">Private ÷ state</text>
+   </g>
+  </g>
+  <g id="patch_4">
+   <path d="M 8.64 5.04 
+L 34.56 5.04 
+L 34.56 0 
+L 8.64 0 
+z
+" style="fill: #e3120b"/>
+  </g>
+  <g id="text_24">
+   <text style="font-weight: 700; font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #4d5358" x="40.32" y="7.950156" transform="rotate(-0 40.32 7.950156)">Chart 7</text>
+  </g>
+  <g id="text_25">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'Inter'; text-anchor: start; fill: #121212" x="8.64" y="31.896" transform="rotate(-0 8.64 31.896)">Private firms pay AI engineers about two</text>
+  </g>
+  <g id="text_26">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'Inter'; text-anchor: start; fill: #121212" x="8.64" y="49.032" transform="rotate(-0 8.64 49.032)">to three times what Western agencies do</text>
+  </g>
+  <g id="text_27">
+   <text style="font-size: 10px; font-family: 'Inter'; text-anchor: start; fill: #121212" x="8.64" y="62.424" transform="rotate(-0 8.64 62.424)">Typical annual pay, $ at market exchange rates, log scale</text>
+  </g>
+  <g id="text_28">
+   <text style="font-size: 7.2px; font-family: 'Inter'; text-anchor: start; fill: #4d5358" x="8.64" y="262.224" transform="rotate(-0 8.64 262.224)">Private: median pay of ML/AI engineers, including stock. State pay excludes pensions and job security. *Averages for all staff, not</text>
+  </g>
+  <g id="text_29">
+   <text style="font-size: 7.2px; font-family: 'Inter'; text-anchor: start; fill: #4d5358" x="8.64" y="271.008" transform="rotate(-0 8.64 271.008)">just engineers. Russia and Iran publish nothing comparable.</text>
+  </g>
+  <g id="text_30">
+   <text style="font-size: 7.2px; font-family: 'Inter'; text-anchor: start; fill: #4d5358" x="8.64" y="282.672" transform="rotate(-0 8.64 282.672)">Sources: USAJOBS (NSA adverts); Federal News Network; GCHQ, National Cyber Force and NCSC adverts (via Flexa and The</text>
+  </g>
+  <g id="text_31">
+   <text style="font-size: 7.2px; font-family: 'Inter'; text-anchor: start; fill: #4d5358" x="8.64" y="291.456" transform="rotate(-0 8.64 291.456)">Register); Israeli Finance Ministry via Ynet; AP (i-Soon leak); Levels.fyi; author's Bayesian measurement model (dots: medians; bars:</text>
+  </g>
+  <g id="text_32">
+   <text style="font-size: 7.2px; font-family: 'Inter'; text-anchor: start; fill: #4d5358" x="8.64" y="300.24" transform="rotate(-0 8.64 300.24)">80% credible intervals)</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe1671be523">
+   <rect x="205.92" y="88.812" width="181.44" height="141.12"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,64 @@
+{
+ "russia_2021_usd": {
+  "Junior": 8473,
+  "Mid-level": 19552,
+  "Senior": 31772,
+  "Lead": 37475
+ },
+ "crime_usd": {
+  "Conti coders, 2021": [
+   12000,
+   24000
+  ],
+  "Dark-web ads: developers": [
+   24000,
+   24000
+  ],
+  "Dark-web ads: reverse engineers": [
+   48000,
+   48000
+  ],
+  "LockBit's alleged developer": [
+   120000,
+   120000
+  ]
+ },
+ "us_usd": {
+  "Median salary, 2025": 135980.0,
+  "Median total pay, 2025": 195000,
+  "AI engineers' total pay, 2026": 250000,
+  "OpenAI or Anthropic, 2026": 878750
+ },
+ "other_emerging_usd": {
+  "Ukraine*, 2026": [
+   42000,
+   null
+  ],
+  "China, 2025": [
+   17826,
+   34598
+  ],
+  "Kazakhstan, 2024": [
+   24565,
+   null
+  ],
+  "Belarus, 2025": [
+   23159,
+   null
+  ],
+  "Brazil, 2025": [
+   17903,
+   null
+  ],
+  "Vietnam, 2025": [
+   17443,
+   null
+  ]
+ },
+ "band_usd": [
+  15600,
+  48000
+ ],
+ "dev_ad_over_ai_engineers_pay": 0.096,
+ "dev_ad_over_us_median_salary": 0.176
+}

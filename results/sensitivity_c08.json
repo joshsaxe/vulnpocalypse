@@ -1,0 +1,34 @@
+{
+ "charted": {
+  "all": {
+   "p_shrinking": 0.975
+  },
+  "without_genai": {
+   "p_shrinking": 0.789
+  },
+  "mixture": {
+   "ns_year_q": [
+    2027.1,
+    2028.4,
+    2033.5
+   ],
+   "p_by_end_2029": 0.715
+  }
+ },
+ "open_source_agency_years_2009_2011": {
+  "all": {
+   "p_shrinking": 0.917
+  },
+  "without_genai": {
+   "p_shrinking": 0.448
+  },
+  "mixture": {
+   "ns_year_q": [
+    2027.2,
+    2029.5,
+    2037.9
+   ],
+   "p_by_end_2029": 0.545
+  }
+ }
+}

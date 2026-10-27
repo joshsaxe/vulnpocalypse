@@ -1,0 +1,35 @@
+vendor,tier,first_year,substance,date_conf
+Microsoft,Platform,2023,A,A
+Google/Mandiant,Platform,2023,A,A
+CrowdStrike,Platform,2023,A,A
+Cisco,Platform,2023,B,A
+Amazon/AWS,Platform,2023,C,A
+Palo Alto Networks,Platform,2024,B,A
+Cloudflare,Platform,2024,B,A
+SentinelOne,Pure-play,2023,A,A
+Fortinet,Pure-play,2023,B,A
+Zscaler,Pure-play,2023,B,A
+Check Point,Pure-play,2024,B,A
+Trellix,Pure-play,2024,A,A
+Tenable,Pure-play,2023,B,A
+Rapid7,Pure-play,2024,B,A
+Darktrace,Pure-play,2023,B,A
+Sophos,Pure-play,2025,B,A
+Trend Micro,Pure-play,2023,B,A
+Okta,Pure-play,2023,C,A
+Proofpoint,Pure-play,2024,B,A
+Elastic Security,Pure-play,2023,B,B
+Splunk,Pure-play,2023,B,A
+SecurityScorecard,Pure-play,2023,B,A
+Abnormal Security,Pure-play,2023,B,A
+Wiz,Pure-play,2024,B,B
+Snyk,Pure-play,2023,B,B
+GitHub,Adjacent,2024,B,A
+GitLab,Adjacent,2023,B,A
+Datadog,Adjacent,2025,A,A
+Vanta,Adjacent,2023,B,A
+HackerOne,Adjacent,2024,B,A
+Bugcrowd,Adjacent,2025,B,A
+Dropbox,Adjacent,,none,A
+Atlassian,Adjacent,,none,A
+1Password,Adjacent,,none,B

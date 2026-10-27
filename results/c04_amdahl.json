@@ -1,0 +1,53 @@
+{
+ "ai_share_of_hours": [
+  0.307,
+  0.386,
+  0.47
+ ],
+ "ceiling": [
+  1.443,
+  1.63,
+  1.887
+ ],
+ "likely": [
+  1.018,
+  1.096,
+  1.248
+ ],
+ "future_all_technical": [
+  3.255,
+  4.339,
+  6.07
+ ],
+ "p_ceiling_above_65pc": 0.454,
+ "technical_share_of_hours": [
+  0.563,
+  0.652,
+  0.735
+ ],
+ "share_of_remaining_human_hours_in_technical_stages": [
+  0.507,
+  0.62,
+  0.724
+ ],
+ "stage_share_med": {
+  "Get in": 0.195,
+  "Spread through the network": 0.247,
+  "Find and steal data": 0.095,
+  "Disable backups, encrypt": 0.094,
+  "Research victim, write threats": 0.065,
+  "Negotiate, apply pressure": 0.196,
+  "Launder and cash out": 0.044,
+  "Run the platform": 0.024
+ },
+ "stage_auto_med": {
+  "Get in": 0.357,
+  "Spread through the network": 0.423,
+  "Find and steal data": 0.48,
+  "Disable backups, encrypt": 0.427,
+  "Research victim, write threats": 0.624,
+  "Negotiate, apply pressure": 0.248,
+  "Launder and cash out": 0.113,
+  "Run the platform": 0.442
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "costs_usd": {
+  "Find a software flaw": {
+   "low": 0.22,
+   "high": 7.8
+  },
+  "Break into a top AI lab": {
+   "low": 3000,
+   "high": 3000
+  },
+  "Build a browser exploit chain": {
+   "low": 40000,
+   "high": 40000
+  }
+ }
+}

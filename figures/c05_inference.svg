@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="468pt" height="342pt" viewBox="0 0 468 342" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 342 
+L 468 342 
+L 468 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 126.72 270.864 
+L 227.16 270.864 
+L 227.16 95.904 
+L 126.72 95.904 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 129.668668 270.864 
+L 129.668668 95.904 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #d3dadf; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="meb05e9516e" d="M 0 0 
+L 0 3 
+" style="stroke: #4d5358; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#meb05e9516e" x="129.668668" y="270.864" style="fill: #4d5358; stroke: #4d5358; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #4d5358" x="129.668668" y="285.114" transform="rotate(-0 129.668668 285.114)">1 day</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 174.61284 270.864 
+L 174.61284 95.904 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #d3dadf; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#meb05e9516e" x="174.61284" y="270.864" style="fill: #4d5358; stroke: #4d5358; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #4d5358" x="174.61284" y="285.114" transform="rotate(-0 174.61284 285.114)">1 month</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 207.631212 270.864 
+L 207.631212 95.904 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #d3dadf; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#meb05e9516e" x="207.631212" y="270.864" style="fill: #4d5358; stroke: #4d5358; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #4d5358" x="207.631212" y="285.114" transform="rotate(-0 207.631212 285.114)">1 year</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_7"/>
+     <g id="text_4">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #121212" x="120.96" y="118.425562" transform="rotate(-0 120.96 118.425562)">Russian-speaking gang</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_8"/>
+     <g id="text_5">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #121212" x="120.96" y="132.094312" transform="rotate(-0 120.96 132.094312)">'Vibe-hacking' extortionist</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_9"/>
+     <g id="text_6">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #121212" x="120.96" y="145.763062" transform="rotate(-0 120.96 145.763062)">Chinese state spies</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10"/>
+     <g id="text_7">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #121212" x="120.96" y="159.431812" transform="rotate(-0 120.96 159.431812)">ShinyHunters affiliates</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_11"/>
+     <g id="text_8">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #121212" x="120.96" y="173.100562" transform="rotate(-0 120.96 173.100562)">French hacktivist</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_12"/>
+     <g id="text_9">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #121212" x="120.96" y="191.690062" transform="rotate(-0 120.96 191.690062)">AkiraBot spam tool</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_13"/>
+     <g id="text_10">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #121212" x="120.96" y="215.200312" transform="rotate(-0 120.96 215.200312)">EvilTokens phishing service</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_14"/>
+     <g id="text_11">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #121212" x="120.96" y="238.710562" transform="rotate(-0 120.96 238.710562)">AI-built ransomware seller</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_15"/>
+     <g id="text_12">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #121212" x="120.96" y="262.220812" transform="rotate(-0 120.96 262.220812)">Xanthorox 'dark AI'</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_16">
+    <path d="M 174.61284 270.864 
+L 174.61284 95.904 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke-dasharray: 1.6,1.6; stroke-dashoffset: 0; stroke: #3a3f44; stroke-width: 0.8"/>
+   </g>
+   <g id="line2d_17">
+    <path d="M 147.987467 114.356812 
+L 172.721874 114.356812 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_18">
+    <path d="M 147.987467 116.6805 
+L 147.987467 112.033125 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_19">
+    <path d="M 172.721874 116.6805 
+L 172.721874 112.033125 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_20">
+    <path d="M 155.382354 128.025562 
+L 174.61284 128.025562 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_21">
+    <path d="M 155.382354 130.34925 
+L 155.382354 125.701875 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_22">
+    <path d="M 174.61284 130.34925 
+L 174.61284 125.701875 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_23">
+    <path d="M 160.095535 141.694312 
+L 183.772239 141.694312 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_24">
+    <path d="M 160.095535 144.018 
+L 160.095535 139.370625 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_25">
+    <path d="M 183.772239 144.018 
+L 183.772239 139.370625 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_26">
+    <path d="M 174.61284 169.031812 
+L 195.702932 169.031812 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_27">
+    <path d="M 174.61284 171.3555 
+L 174.61284 166.708125 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_28">
+    <path d="M 195.702932 171.3555 
+L 195.702932 166.708125 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_29">
+    <path d="M 198.289544 187.621312 
+L 201.238212 187.621312 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_30">
+    <path d="M 198.289544 189.945 
+L 198.289544 185.297625 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_31">
+    <path d="M 201.238212 189.945 
+L 201.238212 185.297625 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_32">
+    <path d="M 198.289544 234.641812 
+L 201.238212 234.641812 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_33">
+    <path d="M 198.289544 236.9655 
+L 198.289544 232.318125 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_34">
+    <path d="M 201.238212 236.9655 
+L 201.238212 232.318125 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_35">
+    <path d="M 204.591724 258.152062 
+L 205.684431 258.152062 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_36">
+    <path d="M 204.591724 260.47575 
+L 204.591724 255.828375 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_37">
+    <path d="M 205.684431 260.47575 
+L 205.684431 255.828375 
+" clip-path="url(#p84738d26a9)" style="fill: none; stroke: #db444b; stroke-width: 1.4"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 126.72 270.864 
+L 227.16 270.864 
+" style="fill: none; stroke: #3a3f44; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_38">
+    <defs>
+     <path id="m19746e0d68" d="M 0 3.25 
+C 0.86191 3.25 1.688635 2.907559 2.298097 2.298097 
+C 2.907559 1.688635 3.25 0.86191 3.25 0 
+C 3.25 -0.86191 2.907559 -1.688635 2.298097 -2.298097 
+C 1.688635 -2.907559 0.86191 -3.25 0 -3.25 
+C -0.86191 -3.25 -1.688635 -2.907559 -2.298097 -2.298097 
+C -2.907559 -1.688635 -3.25 -0.86191 -3.25 0 
+C -3.25 0.86191 -2.907559 1.688635 -2.298097 2.298097 
+C -1.688635 2.907559 -0.86191 3.25 0 3.25 
+z
+" style="stroke: #ffffff"/>
+    </defs>
+    <g clip-path="url(#p84738d26a9)">
+     <use xlink:href="#m19746e0d68" x="169.899658" y="155.363062" style="fill: #db444b; stroke: #ffffff"/>
+    </g>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #4d5358" x="120.96" y="200.372969" transform="rotate(-0 120.96 200.372969)">found by SentinelOne</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #4d5358" x="120.96" y="223.883219" transform="rotate(-0 120.96 223.883219)">also seized by court order</text>
+   </g>
+   <g id="line2d_39">
+    <g clip-path="url(#p84738d26a9)">
+     <use xlink:href="#m19746e0d68" x="200.513964" y="211.131562" style="fill: #db444b; stroke: #ffffff"/>
+    </g>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #4d5358" x="120.96" y="247.393469" transform="rotate(-0 120.96 247.393469)">sold kits on dark-web forums</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #4d5358" x="120.96" y="270.903719" transform="rotate(-0 120.96 270.903719)">ran on Google's Gemini</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #4d5358" x="8.64" y="90.557125" transform="rotate(-0 8.64 90.557125)">CUT OFF BY THEIR AI PROVIDER</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_4">
+    <path d="M 358.92 270.864 
+L 459.36 270.864 
+L 459.36 95.904 
+L 358.92 95.904 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_4">
+     <g id="line2d_40">
+      <path d="M 361.868668 270.864 
+L 361.868668 95.904 
+" clip-path="url(#p1b4b19832a)" style="fill: none; stroke: #d3dadf; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_41">
+      <g>
+       <use xlink:href="#meb05e9516e" x="361.868668" y="270.864" style="fill: #4d5358; stroke: #4d5358; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #4d5358" x="361.868668" y="285.114" transform="rotate(-0 361.868668 285.114)">1 day</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_42">
+      <path d="M 406.81284 270.864 
+L 406.81284 95.904 
+" clip-path="url(#p1b4b19832a)" style="fill: none; stroke: #d3dadf; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_43">
+      <g>
+       <use xlink:href="#meb05e9516e" x="406.81284" y="270.864" style="fill: #4d5358; stroke: #4d5358; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_19">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #4d5358" x="406.81284" y="285.114" transform="rotate(-0 406.81284 285.114)">1 month</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_44">
+      <path d="M 439.831212 270.864 
+L 439.831212 95.904 
+" clip-path="url(#p1b4b19832a)" style="fill: none; stroke: #d3dadf; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_45">
+      <g>
+       <use xlink:href="#meb05e9516e" x="439.831212" y="270.864" style="fill: #4d5358; stroke: #4d5358; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_20">
+      <text style="font-size: 8px; font-family: 'Inter'; text-anchor: middle; fill: #4d5358" x="439.831212" y="285.114" transform="rotate(-0 439.831212 285.114)">1 year</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_10">
+     <g id="line2d_46"/>
+     <g id="text_21">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #121212" x="353.16" y="123.346312" transform="rotate(-0 353.16 123.346312)">ARTEX vs Korean lenders</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_47"/>
+     <g id="text_22">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #121212" x="353.16" y="146.856562" transform="rotate(-0 353.16 146.856562)">FortiGate break-ins</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_48"/>
+     <g id="text_23">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #121212" x="353.16" y="170.366812" transform="rotate(-0 353.16 170.366812)">WormGPT (2023)</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_49"/>
+     <g id="text_24">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #121212" x="353.16" y="193.877062" transform="rotate(-0 353.16 193.877062)">Chinese spies vs Vietnam</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_50"/>
+     <g id="text_25">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #121212" x="353.16" y="217.387312" transform="rotate(-0 353.16 217.387312)">Malian surveillance system</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_51"/>
+     <g id="text_26">
+      <text style="font-size: 8.4px; font-family: 'Inter'; text-anchor: end; fill: #121212" x="353.16" y="240.897562" transform="rotate(-0 353.16 240.897562)">GhostGPT chatbot</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_52">
+    <path d="M 406.81284 270.864 
+L 406.81284 95.904 
+" clip-path="url(#p1b4b19832a)" style="fill: none; stroke-dasharray: 1.6,1.6; stroke-dashoffset: 0; stroke: #3a3f44; stroke-width: 0.8"/>
+   </g>
+   <g id="line2d_53">
+    <path d="M 387.582354 119.277562 
+L 402.099658 119.277562 
+" clip-path="url(#p1b4b19832a)" style="fill: none; stroke: #758d99; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_54">
+    <path d="M 387.582354 121.60125 
+L 387.582354 116.953875 
+" clip-path="url(#p1b4b19832a)" style="fill: none; stroke: #758d99; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_55">
+    <path d="M 402.099658 121.60125 
+L 402.099658 116.953875 
+" clip-path="url(#p1b4b19832a)" style="fill: none; stroke: #758d99; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_56">
+    <path d="M 416.405531 166.298062 
+L 431.064166 166.298062 
+" clip-path="url(#p1b4b19832a)" style="fill: none; stroke: #758d99; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_57">
+    <path d="M 416.405531 168.62175 
+L 416.405531 163.974375 
+" clip-path="url(#p1b4b19832a)" style="fill: none; stroke: #758d99; stroke-width: 1.4"/>
+   </g>
+   <g id="line2d_58">
+    <path d="M 431.064166 168.62175 
+L 431.064166 163.974375 
+" clip-path="url(#p1b4b19832a)" style="fill: none; stroke: #758d99; stroke-width: 1.4"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 358.92 270.864 
+L 459.36 270.864 
+" style="fill: none; stroke: #3a3f44; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #4d5358" x="353.16" y="132.029219" transform="rotate(-0 353.16 132.029219)">DeepSeek via a reseller</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #4d5358" x="353.16" y="155.539469" transform="rotate(-0 353.16 155.539469)">found by Amazon; no ban reported</text>
+   </g>
+   <g id="line2d_59">
+    <defs>
+     <path id="m72afb759cc" d="M 0 3.25 
+C 0.86191 3.25 1.688635 2.907559 2.298097 2.298097 
+C 2.907559 1.688635 3.25 0.86191 3.25 0 
+C 3.25 -0.86191 2.907559 -1.688635 2.298097 -2.298097 
+C 1.688635 -2.907559 0.86191 -3.25 0 -3.25 
+C -0.86191 -3.25 -1.688635 -2.907559 -2.298097 -2.298097 
+C -2.907559 -1.688635 -3.25 -0.86191 -3.25 0 
+C -3.25 0.86191 -2.907559 1.688635 -2.298097 2.298097 
+C -1.688635 2.907559 -0.86191 3.25 0 3.25 
+z
+" style="stroke: #ffffff"/>
+    </defs>
+    <g clip-path="url(#p1b4b19832a)">
+     <use xlink:href="#m72afb759cc" x="409.936533" y="142.787812" style="fill: #758d99; stroke: #ffffff"/>
+    </g>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #4d5358" x="353.16" y="179.049719" transform="rotate(-0 353.16 179.049719)">self-hosted; quit</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #4d5358" x="353.16" y="202.559969" transform="rotate(-0 353.16 202.559969)">caught; no ban reported</text>
+   </g>
+   <g id="line2d_60">
+    <g clip-path="url(#p1b4b19832a)">
+     <use xlink:href="#m72afb759cc" x="435.847449" y="189.808312" style="fill: #758d99; stroke: #ffffff"/>
+    </g>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #4d5358" x="353.16" y="226.070219" transform="rotate(-0 353.16 226.070219)">banned; ran on local models</text>
+   </g>
+   <g id="line2d_61">
+    <defs>
+     <path id="m3bca30f7b3" d="M 0 3.25 
+C 0.86191 3.25 1.688635 2.907559 2.298097 2.298097 
+C 2.907559 1.688635 3.25 0.86191 3.25 0 
+C 3.25 -0.86191 2.907559 -1.688635 2.298097 -2.298097 
+C 1.688635 -2.907559 0.86191 -3.25 0 -3.25 
+C -0.86191 -3.25 -1.688635 -2.907559 -2.298097 -2.298097 
+C -2.907559 -1.688635 -3.25 -0.86191 -3.25 0 
+C -3.25 0.86191 -2.907559 1.688635 -2.298097 2.298097 
+C -1.688635 2.907559 -0.86191 3.25 0 3.25 
+z
+" style="stroke: #758d99; stroke-width: 1.6"/>
+    </defs>
+    <g clip-path="url(#p1b4b19832a)">
+     <use xlink:href="#m3bca30f7b3" x="435.500339" y="213.318562" style="fill: #ffffff; stroke: #758d99; stroke-width: 1.6"/>
+    </g>
+   </g>
+   <g id="patch_6">
+    <path d="M 438.998987 213.318562 
+Q 441.75385 213.318562 443.055268 213.318562 
+" style="fill: none; stroke: #758d99; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 439.855268 211.718562 
+L 443.055268 213.318562 
+L 439.855268 214.918562 
+z
+" style="fill: #758d99; stroke: #758d99; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 8px; font-family: 'Inter'; text-anchor: end; fill: #4d5358" x="353.16" y="249.580469" transform="rotate(-0 353.16 249.580469)">still sold in September 2026</text>
+   </g>
+   <g id="line2d_62">
+    <g clip-path="url(#p1b4b19832a)">
+     <use xlink:href="#m3bca30f7b3" x="446.617528" y="236.828812" style="fill: #ffffff; stroke: #758d99; stroke-width: 1.6"/>
+    </g>
+   </g>
+   <g id="patch_7">
+    <path d="M 450.116176 236.828812 
+Q 452.871038 236.828812 454.172457 236.828812 
+" style="fill: none; stroke: #758d99; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 450.972457 235.228812 
+L 454.172457 236.828812 
+L 450.972457 238.428812 
+z
+" style="fill: #758d99; stroke: #758d99; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_33">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #4d5358" x="245.16" y="90.557125" transform="rotate(-0 245.16 90.557125)">NOT STOPPED BY THEIR AI PROVIDER</text>
+   </g>
+  </g>
+  <g id="patch_8">
+   <path d="M 8.64 5.04 
+L 34.56 5.04 
+L 34.56 0 
+L 8.64 0 
+z
+" style="fill: #e3120b"/>
+  </g>
+  <g id="text_34">
+   <text style="font-weight: 700; font-size: 8px; font-family: 'Inter'; text-anchor: start; fill: #4d5358" x="40.32" y="7.950156" transform="rotate(-0 40.32 7.950156)">Chart 5</text>
+  </g>
+  <g id="text_35">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'Inter'; text-anchor: start; fill: #121212" x="8.64" y="31.896" transform="rotate(-0 8.64 31.896)">AI firms cut some abusers off within</text>
+  </g>
+  <g id="text_36">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'Inter'; text-anchor: start; fill: #121212" x="8.64" y="49.032" transform="rotate(-0 8.64 49.032)">weeks, but as many run for half a year</text>
+  </g>
+  <g id="text_37">
+   <text style="font-size: 10px; font-family: 'Inter'; text-anchor: start; fill: #121212" x="8.64" y="62.424" transform="rotate(-0 8.64 62.424)">Malicious operations using AI models, by how long each ran, log scale</text>
+  </g>
+  <g id="text_38">
+   <text style="font-size: 7.2px; font-family: 'Inter'; text-anchor: start; fill: #4d5358" x="8.64" y="301.824" transform="rotate(-0 8.64 301.824)">Lines: published ranges; one bound assumed where a report gives only one. Arrows: still running. Of the nine cut off, three or four</text>
+  </g>
+  <g id="text_39">
+   <text style="font-size: 7.2px; font-family: 'Inter'; text-anchor: start; fill: #4d5358" x="8.64" y="310.608" transform="rotate(-0 8.64 310.608)">went within a month (estimated share 41%, 22–62%) and four lasted six months or more. Only cases caught and disclosed appear.</text>
+  </g>
+  <g id="text_40">
+   <text style="font-size: 7.2px; font-family: 'Inter'; text-anchor: start; fill: #4d5358" x="8.64" y="322.272" transform="rotate(-0 8.64 322.272)">Sources: Anthropic, OpenAI, Microsoft and Google threat reports; SentinelOne; CrowdStrike; Amazon; Krebs on Security; Cato</text>
+  </g>
+  <g id="text_41">
+   <text style="font-size: 7.2px; font-family: 'Inter'; text-anchor: start; fill: #4d5358" x="8.64" y="331.056" transform="rotate(-0 8.64 331.056)">Networks; Abnormal Security; KELA; author's beta-binomial estimate (in note; 80% credible interval)</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p84738d26a9">
+   <rect x="126.72" y="95.904" width="100.44" height="174.96"/>
+  </clipPath>
+  <clipPath id="p1b4b19832a">
+   <rect x="358.92" y="95.904" width="100.44" height="174.96"/>
+  </clipPath>
+ </defs>
+</svg>

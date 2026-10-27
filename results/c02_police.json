@@ -1,0 +1,140 @@
+{
+ "by_group": {
+  "Botnets and malware services": {
+   "n": 26,
+   "police": 23,
+   "pressure": 1,
+   "other": 1,
+   "active": 1,
+   "police_share_of_ended_q": [
+    0.858,
+    0.936,
+    0.979
+   ]
+  },
+  "Darknet markets": {
+   "n": 31,
+   "police": 15,
+   "pressure": 0,
+   "other": 16,
+   "active": 0,
+   "police_share_of_ended_q": [
+    0.374,
+    0.485,
+    0.596
+   ]
+  },
+  "Hacking and carding forums": {
+   "n": 15,
+   "police": 13,
+   "pressure": 1,
+   "other": 0,
+   "active": 1,
+   "police_share_of_ended_q": [
+    0.858,
+    0.955,
+    0.993
+   ]
+  },
+  "Money-laundering services": {
+   "n": 14,
+   "police": 11,
+   "pressure": 0,
+   "other": 2,
+   "active": 1,
+   "police_share_of_ended_q": [
+    0.663,
+    0.814,
+    0.919
+   ]
+  },
+  "Other criminal services*": {
+   "n": 28,
+   "police": 22,
+   "pressure": 1,
+   "other": 2,
+   "active": 3,
+   "police_share_of_ended_q": [
+    0.808,
+    0.898,
+    0.957
+   ]
+  },
+  "Ransomware brands": {
+   "n": 38,
+   "police": 8,
+   "pressure": 3,
+   "other": 13,
+   "active": 14,
+   "police_share_of_ended_q": [
+    0.338,
+    0.461,
+    0.587
+   ]
+  }
+ },
+ "all": {
+  "n": 152,
+  "ended": 132,
+  "police_any": 98,
+  "active": 20,
+  "police_share_of_ended_q": [
+   0.69,
+   0.74,
+   0.787
+  ]
+ },
+ "cif_police": {
+  "2": [
+   0.163,
+   0.207,
+   0.26
+  ],
+  "5": [
+   0.338,
+   0.395,
+   0.455
+  ],
+  "10": [
+   0.593,
+   0.655,
+   0.716
+  ]
+ },
+ "cif_point": {
+  "2": 0.21,
+  "5": 0.395,
+  "10": 0.653
+ },
+ "n_dated": 115,
+ "police_share_of_closed_hdi80_pct": {
+  "Hacking and carding forums": [
+   89.8,
+   100.0
+  ],
+  "Botnets and malware services": [
+   88.5,
+   99.2
+  ],
+  "Other criminal services*": [
+   83.2,
+   97.2
+  ],
+  "Money-laundering services": [
+   69.6,
+   94.0
+  ],
+  "Darknet markets": [
+   37.3,
+   59.5
+  ],
+  "Ransomware brands": [
+   33.5,
+   58.4
+  ],
+  "All": [
+   69.1,
+   78.8
+  ]
+ }
+}

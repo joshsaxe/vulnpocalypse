@@ -1,0 +1,76 @@
+{
+ "charted": {
+  "business_model_median_years": [
+   3.66,
+   5.87,
+   9.24
+  ],
+  "p_agentic_widespread_by": {
+   "2028": 0.143,
+   "2030": 0.354,
+   "2032": 0.511
+  }
+ },
+ "original classification": {
+  "business_model_median_years": [
+   5.69,
+   7.41,
+   9.55
+  ],
+  "p_agentic_widespread_by": {
+   "2028": 0.044,
+   "2030": 0.209,
+   "2032": 0.433
+  }
+ },
+ "encrypt-and-ransom dated from 2006": {
+  "business_model_median_years": [
+   3.47,
+   5.27,
+   7.72
+  ],
+  "p_agentic_widespread_by": {
+   "2028": 0.157,
+   "2030": 0.405,
+   "2032": 0.584
+  }
+ },
+ "tool_class": {
+  "charted": {
+   "tool_class_median_years": [
+    2.52,
+    3.92,
+    6.92
+   ],
+   "p_agentic_widespread_by_if_tool": {
+    "2028": 0.216,
+    "2030": 0.552,
+    "2032": 0.719
+   }
+  },
+  "Mirai from first sighting (0.1 year)": {
+   "tool_class_median_years": [
+    0.83,
+    2.51,
+    8.05
+   ],
+   "p_agentic_widespread_by_if_tool": {
+    "2028": 0.174,
+    "2030": 0.34,
+    "2032": 0.44
+   }
+  },
+  "AI-written phishing dated by calendar year (1.6 years)": {
+   "tool_class_median_years": [
+    2.16,
+    3.72,
+    7.33
+   ],
+   "p_agentic_widespread_by_if_tool": {
+    "2028": 0.231,
+    "2030": 0.511,
+    "2032": 0.66
+   }
+  }
+ }
+}

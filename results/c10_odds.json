@@ -1,0 +1,37 @@
+{
+ "2028": {
+  "criminals_business_model": 0.143,
+  "criminals_new_tool": 0.216,
+  "agencies_mixture": 0.405,
+  "agencies_all_rows": 0.635,
+  "agencies_without_genai": 0.226
+ },
+ "2030": {
+  "criminals_business_model": 0.354,
+  "criminals_new_tool": 0.552,
+  "agencies_mixture": 0.715,
+  "agencies_all_rows": 0.892,
+  "agencies_without_genai": 0.578
+ },
+ "2032": {
+  "criminals_business_model": 0.511,
+  "criminals_new_tool": 0.719,
+  "agencies_mixture": 0.849,
+  "agencies_all_rows": 0.947,
+  "agencies_without_genai": 0.773
+ },
+ "2034": {
+  "criminals_business_model": 0.622,
+  "criminals_new_tool": 0.801,
+  "agencies_mixture": 0.912,
+  "agencies_all_rows": 0.971,
+  "agencies_without_genai": 0.867
+ },
+ "years_from_now_to_even_odds": {
+  "criminals_business_model": 5.0,
+  "criminals_new_tool": 2.8,
+  "agencies_mixture": 1.6,
+  "agencies_all_rows": 0.8,
+  "agencies_without_genai": 2.7
+ }
+}

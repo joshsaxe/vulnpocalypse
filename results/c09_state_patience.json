@@ -1,0 +1,18 @@
+{
+ "years_to_discovery": {
+  "Equation Group": 14.0,
+  "Regin": 11.0,
+  "Volt Typhoon\u2020": 5.0,
+  "SolarWinds": 1.27,
+  "BRICKSTORM": 1.08,
+  "OPM breach": 0.9,
+  "Midnight Blizzard": 0.13,
+  "Ivanti zero-days": 0.1,
+  "Storm-0558": 0.09,
+  "Typical spying case*": 0.334,
+  "Typical intruder*": 0.038
+ },
+ "lower_bound_rows": [
+  "Volt Typhoon\u2020"
+ ]
+}

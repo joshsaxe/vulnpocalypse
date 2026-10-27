@@ -1,0 +1,16 @@
+{
+ "n_caught": 9,
+ "share_within_30d": [
+  0.224,
+  0.412,
+  0.618
+ ],
+ "share_180d_plus": [
+  0.253,
+  0.44,
+  0.638
+ ],
+ "raw_within_30d": 3,
+ "raw_180d_plus": 4,
+ "sample_median_days": 66.63332499583073
+}
