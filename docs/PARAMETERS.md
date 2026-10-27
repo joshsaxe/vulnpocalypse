@@ -19,7 +19,8 @@ Almost every number behind the figures is read from `data/` or computed from it.
 7. **Chart 7's Israeli state figures are averages for all army, Mossad and Shin Bet staff, not engineers.** Against Mossad and Shin Bet alone the private-to-state ratio is 1.7 (80% range 0.8-3.6), not 2.6. `sensitivity/s07_israel_state_pay.py`.
 8. **Chart 11's spending panel is an order-of-magnitude judgement.** Defensive medians are anchored on two market-research houses; offensive medians are a deliberately generous guess. They are not measurements.
 9. **A few chart-5 durations are approximate or assumed.** The table gives one bound (or none) for some cases and the author supplied the other; one duration (263 days) rounds a table figure of about 252. See the `ASSUMED` and `APPROX` lines in the table at the end.
-10. **Price indices for countries other than the United States are hand-entered.** See "Hand-entered deflators" below.
+10. **Charts 2, 5 and 9 can count only what was caught, and no table says how much is missing.** Police stop being the majority in Chart 2 if police endings are about 2.9 times as likely as other closures to be documented (at least 64 other closures missing); "about two-thirds" goes at about 1.4. In Chart 5 two hidden quick catches would make most cut-offs quick, and five hidden long cases would make long ones twice as common as quick ones; which of the nine cases are kept moves its shares by 17 to 24 points. In Chart 9 hidden campaigns can only add long cases, so the claim that state hackers can stay hidden for years depends on the few long ones that are plotted. The data cannot estimate any of these; `sensitivity/s02_police_selection.py`, `sensitivity/s05_provider_selection.py` and `sensitivity/s09_state_selection.py` give the thresholds, and the model cards tabulate them.
+11. **Price indices for countries other than the United States are hand-entered.** See "Hand-entered deflators" below.
 
 ## Judgement parameters, by chart
 
@@ -42,7 +43,7 @@ Ranges in brackets are 80% ranges unless said otherwise. "Where" gives the file;
 
 ### Chart 2: `charts/c02_police.py`, `common/lifespans.py`
 
-Uniform Beta(1,1) priors on each sector's police share, binomial likelihood. Which end types count as "police" (takedown, seizure, arrests or sanctions, plus shutdowns the operators or reporting tied to police pressure) is the author's classification in `data/B_enterprise_lifespans.csv` (`end_type`). A Bayesian bootstrap gives the intervals on the Aalen-Johansen estimate.
+Uniform Beta(1,1) priors on each sector's police share, binomial likelihood. Which end types count as "police" (takedown, seizure, arrests or sanctions, plus shutdowns the operators or reporting tied to police pressure) is the author's classification in `data/B_enterprise_lifespans.csv` (`end_type`). A Bayesian bootstrap gives the intervals on the Aalen-Johansen estimate. The robustness check `sensitivity/s02_police_selection.py` varies one documentation gap `R` (how many times more likely a police ending is to be documented than another closure) over a fixed grid, 1 to 10; no value is preferred and the data cannot estimate it. Its "strict" reading counts only arrests, takedowns and seizures as police endings, and one variant counts police endings that share an end date (coordinated takedowns) once. It treats a row as one enterprise, as the chart does.
 
 ### Chart 4: `charts/c04_amdahl.py`
 
@@ -50,7 +51,7 @@ Stage shares of hours and AI-doable shares (low, central, high) are in `data/E_s
 
 ### Chart 5: `charts/c05_inference.py`
 
-Each case's duration is log-uniform between its bounds; where the report gives one bound the author assumes the other (`ASSUMED` in the table below). Uniform Beta(1,1) prior on the population shares. The nine "cut off" and six "not cut off" cases are listed in the script (`CAUGHT`, `NOTCUT`).
+Each case's duration is log-uniform between its bounds; where the report gives one bound the author assumes the other (`ASSUMED` in the table below). Uniform Beta(1,1) prior on the population shares. The nine "cut off" and six "not cut off" cases are listed in the script (`CAUGHT`, `NOTCUT`). The robustness check `sensitivity/s05_provider_selection.py` adds three judgement lists. `CUT` is the 35 distinct hacking, fraud and spying operations in `D_platform_cases` that an AI provider cut off (36 rows; two of them are one joint report by OpenAI and Microsoft), by provider: the nine the chart uses, one with a stated duration that the chart leaves out (a ban at sign-up) and 25 with none (borderline rows, such as a disruption of a planned exploit or the suspension of consumer e-mail accounts, are left out). `EXCLUDED_QUICK` and `EXCLUDED_LONG` are the four cut-offs with a stated duration that Chart 5 leaves out (two influence operations, a model-copying campaign and the ban at sign-up). `WINDOWS` and `NOT_ANTHROPIC` are two groups of three of the nine, dropped in turn to show how much the shares depend on them: the three whose short "duration" is a reporting window, a stretch of network activity or one stolen key's use, and the three long cases that are not Anthropic's. The readings it tests (most, twice as common, a quarter, a fifth) are round-number thresholds, not estimates.
 
 ### Chart 6: `charts/c06_attacker_lag.py`
 
@@ -69,6 +70,10 @@ Source-quality standard deviations on log pay: grade A 0.15, B 0.25, C 0.40, D 0
 ### Chart 8: `charts/c08_govlag.py`
 
 Priors a ~ N(log 5, 1), b ~ N(0, 0.1), s ~ HalfNormal(0.7); adaptive Metropolis, four chains of 30,000 iterations with the first 8,000 discarded, thinned by 5. "Now" is 2026.8 (late October 2026). The projection draws business adoption of AI agents uniformly in 2025-26. The Covid-era video-conferencing row is shown but not fitted; the two grade-D rows are excluded. Fitted twice, with and without the generative-AI row.
+
+### Chart 9: `sensitivity/s09_state_selection.py`
+
+Chart 9 has no parameters: every bar is a reported date or count. The robustness check types four counts from the notes columns of `H_espionage_cases` (SolarWinds: about 109 organisations worked, of 18,000, or 17,000 on SolarWinds' own figure, that installed the update; Equation Group: more than 500 victims seen, of "tens of thousands" infected, read as 20,000 or, loosely, 10,000) and stops if the table's text does not contain them. Salt Typhoon's "1-2" years is read as 1.5. A second part of the check recomputes each plotted duration from the table's own start and discovery dates, placing a date given only as a month or a year at the middle of it (the 15th of the month; 1 July). A separate figure, how long Regin ran before Kaspersky knew of it, reads "spring 2012" as 15 April 2012; the script stops if the table's text no longer says "spring 2012".
 
 ### Chart 10: `charts/c10_odds.py`
 

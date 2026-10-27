@@ -1,0 +1,138 @@
+{
+ "charted_years": {
+  "Equation Group": 14.0,
+  "Regin": 11.0,
+  "Volt Typhoon\u2020": 5.0,
+  "SolarWinds": 1.27,
+  "BRICKSTORM": 1.08,
+  "OPM breach": 0.9,
+  "Midnight Blizzard": 0.13,
+  "Ivanti zero-days": 0.1,
+  "Storm-0558": 0.09
+ },
+ "years_claim": {
+  "charted_nine": {
+   "n": 9,
+   "at_least_2y": 3,
+   "at_least_5y": 3,
+   "at_least_10y": 2
+  },
+  "campaigns_with_a_figure": {
+   "n": 11,
+   "at_least_2y": 4,
+   "at_least_5y": 3,
+   "at_least_10y": 2
+  },
+  "overstatement_factor_to_fall_below_2y": {
+   "Equation Group": 7.0,
+   "Regin": 5.5,
+   "Volt Typhoon\u2020": 2.5
+  },
+  "years_to_remove_to_fall_below_2y": {
+   "Equation Group": 12.0,
+   "Regin": 9.0,
+   "Volt Typhoon\u2020": 3.0
+  },
+  "campaigns_left_out_with_a_figure": [
+   "Salt Typhoon",
+   "Flame (sKyWIper)"
+  ],
+  "campaigns_with_dates_but_no_figure": [
+   "Duqu 2.0",
+   "Turla Snake (Operation MEDUSA)",
+   "APT10 Cloud Hopper",
+   "UNC3886 (Juniper routers; Singapore)"
+  ],
+  "without_kaspersky_reports": {
+   "campaigns_dropped": [
+    "Equation Group (EquationDrug/GrayFish/DoubleFantasy)",
+    "Regin",
+    "Flame (sKyWIper)"
+   ],
+   "at_least_2y": 1,
+   "longest_years": 5.0,
+   "longest": "Volt Typhoon"
+  }
+ },
+ "typical": {
+  "median_charted_nine_years": 1.08,
+  "median_campaigns_with_a_figure_years": 1.27,
+  "mandiant_espionage_median_years": 0.33,
+  "charted_median_over_mandiant": 3.23,
+  "all_median_over_mandiant": 3.8,
+  "charted_nine_at_least_1y": 5,
+  "campaigns_with_a_figure_at_least_1y": 7
+ },
+ "sliver": {
+  "SolarWinds": {
+   "worked": 109,
+   "infected_readings": [
+    18000,
+    17000
+   ],
+   "worked_share_by_reading": [
+    0.0061,
+    0.0064
+   ],
+   "undercount_factor_to_reach_10pct": [
+    16.51,
+    15.6
+   ],
+   "undercount_factor_to_reach_50pct": [
+    82.57,
+    77.98
+   ],
+   "largest_worked_share": 0.0064,
+   "worked_share_if_only_microsofts_40_customers": 0.0022
+  },
+  "Equation Group": {
+   "worked": 500,
+   "infected_readings": [
+    20000,
+    10000
+   ],
+   "worked_share_by_reading": [
+    0.025,
+    0.05
+   ],
+   "undercount_factor_to_reach_10pct": [
+    4.0,
+    2.0
+   ],
+   "undercount_factor_to_reach_50pct": [
+    20.0,
+    10.0
+   ],
+   "largest_worked_share": 0.05
+  }
+ },
+ "own_dates": {
+  "years_on_the_tables_own_dates": {
+   "Equation Group": 13.63,
+   "Regin": 11.4,
+   "Volt Typhoon\u2020": 1.94,
+   "SolarWinds": 1.24,
+   "BRICKSTORM": 0.53,
+   "OPM breach": 0.94,
+   "Midnight Blizzard": 0.16,
+   "Ivanti zero-days": 0.1,
+   "Storm-0558": 0.09
+  },
+  "differ_from_the_chart_by_more_than_1.5x": [
+   "Volt Typhoon\u2020",
+   "BRICKSTORM"
+  ],
+  "median_of_the_nine_years": 0.94,
+  "median_over_mandiant": 2.81,
+  "at_least_2y": 2,
+  "at_least_5y": 2,
+  "at_least_10y": 2,
+  "regin_years_until_kaspersky_knew_of_it_in_spring_2012": 8.79,
+  "left_out_with_dates_but_no_figure": {
+   "Duqu 2.0": 0.94,
+   "Turla Snake (Operation MEDUSA)": 18.85,
+   "APT10 Cloud Hopper": 10.79,
+   "UNC3886 (Juniper routers; Singapore)": 3.0
+  }
+ }
+}

@@ -1,0 +1,525 @@
+{
+ "charted": {
+  "share_within_30d": [
+   0.224,
+   0.412,
+   0.618
+  ],
+  "share_180d_plus": [
+   0.253,
+   0.44,
+   0.638
+  ]
+ },
+ "hidden_quick_catches": {
+  "grid": [
+   {
+    "Q": 0,
+    "n": 9,
+    "within_30d": [
+     0.2269,
+     0.4144,
+     0.6188
+    ],
+    "d180_plus": [
+     0.2516,
+     0.4391,
+     0.6373
+    ]
+   },
+   {
+    "Q": 2,
+    "n": 11,
+    "within_30d": [
+     0.3263,
+     0.5094,
+     0.6901
+    ],
+    "d180_plus": [
+     0.2061,
+     0.3678,
+     0.5512
+    ]
+   },
+   {
+    "Q": 4,
+    "n": 13,
+    "within_30d": [
+     0.4047,
+     0.5779,
+     0.7386
+    ],
+    "d180_plus": [
+     0.1746,
+     0.3165,
+     0.4848
+    ]
+   },
+   {
+    "Q": 6,
+    "n": 15,
+    "within_30d": [
+     0.4675,
+     0.6296,
+     0.7739
+    ],
+    "d180_plus": [
+     0.1515,
+     0.2777,
+     0.4323
+    ]
+   },
+   {
+    "Q": 9,
+    "n": 18,
+    "within_30d": [
+     0.5408,
+     0.6871,
+     0.8118
+    ],
+    "d180_plus": [
+     0.1265,
+     0.2346,
+     0.3717
+    ]
+   },
+   {
+    "Q": 12,
+    "n": 21,
+    "within_30d": [
+     0.5966,
+     0.7291,
+     0.8388
+    ],
+    "d180_plus": [
+     0.1086,
+     0.2031,
+     0.3258
+    ]
+   },
+   {
+    "Q": 18,
+    "n": 27,
+    "within_30d": [
+     0.6758,
+     0.7865,
+     0.8747
+    ],
+    "d180_plus": [
+     0.0846,
+     0.1601,
+     0.2612
+    ]
+   }
+  ],
+  "tipping_points": {
+   "most_cut_offs_within_a_month": 2,
+   "quick_catches_twice_as_common_as_180d_plus": 5,
+   "fewer_than_a_quarter_ran_180d_plus": 8,
+   "fewer_than_a_fifth_ran_180d_plus": 13,
+   "low_end_below_a_quarter_180d_plus": 1,
+   "low_end_below_a_fifth_180d_plus": 3
+  }
+ },
+ "hidden_long_cases": {
+  "grid": [
+   {
+    "H": 0,
+    "n": 9,
+    "within_30d": [
+     0.2269,
+     0.4144,
+     0.6188
+    ],
+    "d180_plus": [
+     0.2516,
+     0.4391,
+     0.6373
+    ]
+   },
+   {
+    "H": 3,
+    "n": 12,
+    "within_30d": [
+     0.171,
+     0.321,
+     0.4997
+    ],
+    "d180_plus": [
+     0.3888,
+     0.5652,
+     0.73
+    ]
+   },
+   {
+    "H": 6,
+    "n": 15,
+    "within_30d": [
+     0.1372,
+     0.262,
+     0.4182
+    ],
+    "d180_plus": [
+     0.4856,
+     0.645,
+     0.7846
+    ]
+   },
+   {
+    "H": 9,
+    "n": 18,
+    "within_30d": [
+     0.1147,
+     0.2213,
+     0.3593
+    ],
+    "d180_plus": [
+     0.5565,
+     0.7001,
+     0.8207
+    ]
+   },
+   {
+    "H": 18,
+    "n": 27,
+    "within_30d": [
+     0.0768,
+     0.151,
+     0.2521
+    ],
+    "d180_plus": [
+     0.6871,
+     0.7953,
+     0.8806
+    ]
+   },
+   {
+    "H": 36,
+    "n": 45,
+    "within_30d": [
+     0.0463,
+     0.0923,
+     0.1577
+    ],
+    "d180_plus": [
+     0.8035,
+     0.8748,
+     0.9284
+    ]
+   }
+  ],
+  "tipping_points": {
+   "long_ones_twice_as_common_as_quick_catches": 5
+  }
+ },
+ "detection_rate": {
+  "frontier": [
+   {
+    "d": 1.0,
+    "cut_off_within_30d": 0.4144,
+    "cut_off_before_180d": 0.5609
+   },
+   {
+    "d": 0.75,
+    "cut_off_within_30d": 0.3108,
+    "cut_off_before_180d": 0.4207
+   },
+   {
+    "d": 0.5,
+    "cut_off_within_30d": 0.2072,
+    "cut_off_before_180d": 0.2805
+   },
+   {
+    "d": 0.25,
+    "cut_off_within_30d": 0.1036,
+    "cut_off_before_180d": 0.1402
+   },
+   {
+    "d": 0.1,
+    "cut_off_within_30d": 0.0414,
+    "cut_off_before_180d": 0.0561
+   }
+  ],
+  "d_needed_for_half_cut_off_before_180d": 0.8914,
+  "d_needed_for_half_cut_off_within_30d": 1.2066
+ },
+ "disclosure": {
+  "cut_offs_in_table": 35,
+  "with_usable_duration": 9,
+  "share_with_duration": 0.2571,
+  "stated_duration_left_out_of_chart": 1,
+  "without_duration": 25,
+  "without_duration_and_without_start_date_or_basis": 17,
+  "by_provider": {
+   "Anthropic": {
+    "cut_off": 11,
+    "with_duration_used_by_chart": 6,
+    "stated_duration_left_out_of_chart": 1
+   },
+   "OpenAI": {
+    "cut_off": 18,
+    "with_duration_used_by_chart": 1,
+    "stated_duration_left_out_of_chart": 0
+   },
+   "Microsoft": {
+    "cut_off": 2,
+    "with_duration_used_by_chart": 1,
+    "stated_duration_left_out_of_chart": 0
+   },
+   "Google": {
+    "cut_off": 4,
+    "with_duration_used_by_chart": 1,
+    "stated_duration_left_out_of_chart": 0
+   }
+  },
+  "share_within_30d_if_every_missing_duration_were": {
+   "over_30d": 0.1143,
+   "within_30d": 0.8286
+  }
+ },
+ "nine_by_source": {
+  "Anthropic's six": {
+   "n": 6,
+   "within_30d_for_sure": 3,
+   "180d_or_more_for_sure": 1,
+   "upper_bounds_days": [
+    21,
+    26,
+    30,
+    60,
+    148,
+    225
+   ]
+  },
+  "the other three (OpenAI, Microsoft, Google)": {
+   "n": 3,
+   "within_30d_for_sure": 0,
+   "180d_or_more_for_sure": 3,
+   "upper_bounds_days": [
+    213,
+    225,
+    315
+   ]
+  }
+ },
+ "which_cases_carry_the_shares": {
+  "leave_one_out": [
+   {
+    "left_out": "ANT-2026-09-GTG50020",
+    "n": 8,
+    "within_30d": [
+     0.1677,
+     0.3516,
+     0.5686
+    ],
+    "d180_plus": [
+     0.283,
+     0.4861,
+     0.6904
+    ]
+   },
+   {
+    "left_out": "ANT-2025-08-GTG2002",
+    "n": 8,
+    "within_30d": [
+     0.1677,
+     0.3516,
+     0.5686
+    ],
+    "d180_plus": [
+     0.283,
+     0.4861,
+     0.6904
+    ]
+   },
+   {
+    "left_out": "ANT-2025-11-GTG1002",
+    "n": 8,
+    "within_30d": [
+     0.2104,
+     0.3931,
+     0.5994
+    ],
+    "d180_plus": [
+     0.283,
+     0.4861,
+     0.6904
+    ]
+   },
+   {
+    "left_out": "ANT-2026-09-GTG50014",
+    "n": 8,
+    "within_30d": [
+     0.1677,
+     0.3516,
+     0.5686
+    ],
+    "d180_plus": [
+     0.283,
+     0.4861,
+     0.6904
+    ]
+   },
+   {
+    "left_out": "ANT-2026-09-GTG50029",
+    "n": 8,
+    "within_30d": [
+     0.2548,
+     0.4589,
+     0.6712
+    ],
+    "d180_plus": [
+     0.283,
+     0.4861,
+     0.6904
+    ]
+   },
+   {
+    "left_out": "OAI-2025-04-AKIRABOT",
+    "n": 8,
+    "within_30d": [
+     0.2548,
+     0.4589,
+     0.6712
+    ],
+    "d180_plus": [
+     0.1935,
+     0.3791,
+     0.5899
+    ]
+   },
+   {
+    "left_out": "MS-2026-09-EVILTOKENS",
+    "n": 8,
+    "within_30d": [
+     0.2548,
+     0.4589,
+     0.6712
+    ],
+    "d180_plus": [
+     0.2104,
+     0.3931,
+     0.5994
+    ]
+   },
+   {
+    "left_out": "ANT-2025-08-GTG5004",
+    "n": 8,
+    "within_30d": [
+     0.2548,
+     0.4589,
+     0.6712
+    ],
+    "d180_plus": [
+     0.1935,
+     0.3791,
+     0.5899
+    ]
+   },
+   {
+    "left_out": "SVC-XANTHOROX",
+    "n": 8,
+    "within_30d": [
+     0.2548,
+     0.4589,
+     0.6712
+    ],
+    "d180_plus": [
+     0.1935,
+     0.3791,
+     0.5899
+    ]
+   }
+  ],
+  "range_of_medians_leave_one_out": {
+   "within_30d": [
+    0.3516,
+    0.4589
+   ],
+   "d180_plus": [
+    0.3791,
+    0.4861
+   ]
+  },
+  "groups": {
+   "without_the_three_windows": {
+    "left_out": [
+     "ANT-2025-08-GTG2002",
+     "ANT-2026-09-GTG50020",
+     "ANT-2026-09-GTG50014"
+    ],
+    "n": 6,
+    "within_30d": [
+     0.0352,
+     0.1738,
+     0.409
+    ],
+    "d180_plus": [
+     0.3783,
+     0.6189,
+     0.8221
+    ]
+   },
+   "without_the_three_long_cases_that_are_not_anthropics": {
+    "left_out": [
+     "OAI-2025-04-AKIRABOT",
+     "MS-2026-09-EVILTOKENS",
+     "SVC-XANTHOROX"
+    ],
+    "n": 6,
+    "within_30d": [
+     0.3387,
+     0.5845,
+     0.8029
+    ],
+    "d180_plus": [
+     0.0788,
+     0.2285,
+     0.4526
+    ]
+   },
+   "without_both_groups": {
+    "left_out": [
+     "ANT-2025-08-GTG2002",
+     "ANT-2026-09-GTG50020",
+     "ANT-2026-09-GTG50014",
+     "OAI-2025-04-AKIRABOT",
+     "MS-2026-09-EVILTOKENS",
+     "SVC-XANTHOROX"
+    ],
+    "n": 3,
+    "within_30d": [
+     0.0618,
+     0.2953,
+     0.6258
+    ],
+    "d180_plus": [
+     0.1426,
+     0.3857,
+     0.6795
+    ]
+   }
+  }
+ },
+ "all_stated_durations": {
+  "added_quick": [
+   "OAI-2024-05-ZEROZENO",
+   "ANT-2025-08-CONTAGIOUS",
+   "OAI-2026-09-DISTILL"
+  ],
+  "added_long": [
+   "ANT-2026-09-GTG54006"
+  ],
+  "n": 13,
+  "within_30d": [
+   0.3383,
+   0.5081,
+   0.676
+  ],
+  "d180_plus": [
+   0.2323,
+   0.3862,
+   0.5562
+  ]
+ }
+}

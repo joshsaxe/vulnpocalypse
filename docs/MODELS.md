@@ -54,13 +54,13 @@ Code: [`models/c01_loss_trend.py`](../models/c01_loss_trend.py), [`common/dfm.py
 
 ## Chart 2: what happens to criminal enterprises
 
-Code: [`charts/c02_police.py`](../charts/c02_police.py), [`common/lifespans.py`](../common/lifespans.py) · results: [`results/c02_police.json`](../results/c02_police.json)
+Code: [`charts/c02_police.py`](../charts/c02_police.py), [`common/lifespans.py`](../common/lifespans.py) · results: [`results/c02_police.json`](../results/c02_police.json) · robustness: [`sensitivity/s02_police_selection.py`](../sensitivity/s02_police_selection.py)
 
 - **Question.** What share of criminal enterprises end because police act, and how soon?
 - **Data.** `B_enterprise_lifespans`: 152 enterprises in ten sectors (grouped into six on the chart). `end_type` says how each ended; police endings are takedown, seizure, arrests, sanctions and a shutdown or rebrand that the operators or reporting tie to police pressure (six rows). Endings by retirement, exit scam or plain rebrand, and enterprises still running, are not police endings.
 - **Model.** For each sector, the police share of *ended* enterprises has a uniform Beta(1, 1) prior and a binomial likelihood, so the posterior is Beta(1 + police, 1 + others). The bars show only enterprises that have ended, so young sectors are not counted against the police for being young. Whiskers are 80% highest-density intervals, so that a sector where police ended every closed enterprise is not drawn outside its own interval. Separately, the 115 enterprises with known start and end dates give an Aalen-Johansen estimate of the share ended by police within 2, 5 and 10 years of launch (other endings are competing risks that remove an enterprise from the risk set; the 16 of them still running are censored on 21 October 2026), with a Bayesian bootstrap (Dirichlet weights, 4,000 resamples) for its 80% interval. Dates given to the year, month or day are placed at the middle of that period, and a lifespan is at least 0.08 years.
 - **Output.** `all`: 132 ended, 98 by police, median 0.74 (0.69-0.787). `cif_police`: 0.207, 0.395 and 0.655 at 2, 5 and 10 years (medians). `police_share_of_closed_hdi80_pct`: the highest-density intervals drawn.
-- **Weak points.** Selection: enterprises famous enough to be documented are more often ones police acted against, which probably flatters the police. The classification of ambiguous endings is a judgement. Three rows are unverified recollections (see the [data dictionary](../data/README.md#how-reliable-is-this); dropping them moves the all-sector median from 74.0% to 73.4%). The 37 undated enterprises are out of the dated estimate, so the text does not rely on it.
+- **Weak points.** Selection: enterprises famous enough to be documented are more often ones police acted against, which probably flatters the police. The robustness check below says how large that documentation gap would have to be: police stop being the majority at about 2.9 times, and "about two-thirds" goes at about 1.4. For darknet markets and ransomware brands the data say "about half", not less than half (14 of the 38 ransomware brands are still running), and 27 police endings fall on nine shared dates, which the intervals treat as independent. The classification of ambiguous endings is a judgement. Three rows are unverified recollections (see the [data dictionary](../data/README.md#how-reliable-is-this); dropping them moves the all-sector median from 74.0% to 73.4%). The 37 undated enterprises are out of the dated estimate, so the text does not rely on it.
 
 ## Chart 3: what crime pays
 
@@ -86,13 +86,13 @@ Code: [`charts/c04_amdahl.py`](../charts/c04_amdahl.py), [`common/bayes.py`](../
 
 ## Chart 5: how long abusers keep access to hosted AI
 
-Code: [`charts/c05_inference.py`](../charts/c05_inference.py) · results: [`results/c05_inference.json`](../results/c05_inference.json)
+Code: [`charts/c05_inference.py`](../charts/c05_inference.py) · results: [`results/c05_inference.json`](../results/c05_inference.json) · robustness: [`sensitivity/s05_provider_selection.py`](../sensitivity/s05_provider_selection.py)
 
 - **Question.** When an AI provider catches a hacking, fraud or spying operation, how long had it run, and how often is nobody stopping it?
 - **Data.** 15 of the 81 rows of `D_platform_cases`: nine cases a provider cut off and whose report bounds the duration (`CAUGHT` in the script), and six where no provider ended the operation (`NOTCUT`). Where a report gives one bound only, the other is assumed and labelled in the note; where a duration is exact it is widened by 20% each way.
 - **Model.** In each of 20,000 draws every case's duration is log-uniform between its bounds. The model counts the cases cut off within 30 days and those that ran 180 days or more, and combines each count with a uniform Beta(1, 1) prior to give the population share (median and 80% interval).
 - **Output.** Cut off within 30 days: 41% (22-62%); ran 180 days or more: 44% (25-64%).
-- **Weak points.** Nine cases. Only operations that were caught and disclosed appear, over a window of about three years, so long-running recent operations are missing and true durations are probably longer. Almost every row is a vendor describing its own detection. The log-uniform assumption within bounds, and the assumed bounds, are choices.
+- **Weak points.** Nine cases. Only operations that were caught and disclosed appear, over a window of about three years, so long-running recent operations are missing and true durations are probably longer, although quick catches that no report mentions would push the other way. Almost every row is a vendor describing its own detection. The log-uniform assumption within bounds, and the assumed bounds, are choices. The nine cases measure different things (a reporting window, a period of network activity, a stolen key's use, a product's time on sale), and which are kept moves the shares by 17 to 24 points. The ratio of quick to slow cut-offs moves with a few missing cases and the chart says nothing about how often providers catch abuse at all; see [Robustness checks](#robustness-checks).
 
 ## Chart 6: how fast criminals adopt new technology
 
@@ -126,10 +126,10 @@ Code: [`charts/c08_govlag.py`](../charts/c08_govlag.py), [`common/bayes.py`](../
 
 ## Chart 9: how long state hackers stay hidden
 
-Code: [`charts/c09_state_patience.py`](../charts/c09_state_patience.py) · results: [`results/c09_state_patience.json`](../results/c09_state_patience.json)
+Code: [`charts/c09_state_patience.py`](../charts/c09_state_patience.py) · results: [`results/c09_state_patience.json`](../results/c09_state_patience.json) · robustness: [`sensitivity/s09_state_selection.py`](../sensitivity/s09_state_selection.py)
 
 - **Not a model.** Every bar is a reported date or count: the time from a campaign's first intrusion to its discovery as the investigators give it (nine campaigns of `H_espionage_cases`), and two benchmarks from Mandiant's M-Trends 2026 (122 days for espionage and North Korean IT-worker cases, 14 days for all intrusions). Volt Typhoon's five years is a lower bound (time in the network, not time to discovery) and has a hollow marker.
-- **Weak points.** Campaigns still hidden are missing by construction and famous ones are over-represented, so the bars show what is possible, not how typical it is.
+- **Weak points.** Campaigns still hidden are missing by construction and famous ones are over-represented, so the bars show what is possible, not how typical it is. Campaigns that were never found can only be long, so they cannot weaken "years"; what could is the long cases themselves: two are Kaspersky's dating of malware, and Volt Typhoon's five years is a lower bound that the table's own dates put at 1.9. What the "sliver" needs is checked in [Robustness checks](#robustness-checks).
 
 ## Chart 10: the odds, year by year, that AI agents become routine
 
@@ -172,7 +172,7 @@ Code: [`charts/c12_funnel.py`](../charts/c12_funnel.py) · results: [`results/c1
 
 ## Robustness checks
 
-Four scripts in [`sensitivity/`](../sensitivity) reproduce the robustness numbers quoted in the post's methods appendix, by rerunning a model with one assumption changed at a time. Each stops if its "charted" row does not reproduce the chart's own results. Run them with `make sensitivity` (about five minutes on two cores; Charts 6, 7 and 8 are rerun first, because the checks for them compare against those charts' results). Results are in `results/sensitivity_*.json`.
+Seven scripts in [`sensitivity/`](../sensitivity) check how far the results depend on what was assumed or left out. Four (Charts 1, 6, 7 and 8) reproduce the robustness numbers quoted in the post's methods appendix, by rerunning a model with one assumption changed at a time. Three (Charts 2, 5 and 9) were added later, after a reader asked how many missing cases it would take to flip the conclusions of the charts that can count only what was caught; the appendix does not quote them. Each stops if its "charted" row does not reproduce the chart's own results. Run them with `make sensitivity` (about six minutes on two cores; Charts 2, 5, 6, 7, 8 and 9 are rerun first, because the checks for them compare against those charts' results). Results are in `results/sensitivity_*.json`.
 
 ### Chart 1: the trend
 
@@ -192,6 +192,81 @@ How to read it:
 - **The 2025 levels barely move**, because they are fixed by the triangulation, not by the trend.
 - **For hacking, growth slowed after 2022 in every variant**, by at least ten points a year. With only the dollar series, it has been about 3% a year since 2022.
 - **For fraud, the slowdown is 4 to 9 points a year in four variants and almost nothing in the fifth**, where series are allowed to drift only one point a year relative to the others (11.1% a year, then 10.7%). The post's appendix says the finding "survives" these changes, and gives the ranges across variants (12-17% then 8-11%); the table is the fuller picture. On medians the first range is 11.1-16.9%.
+
+### Chart 2: how many missing closures would it take?
+
+Source: [`results/sensitivity_c02.json`](../results/sensitivity_c02.json). The chart can count only enterprises that were documented. Police actions come with press releases, indictments and court filings; an exit scam or a quiet retirement often does not. Let `R` be how many times more likely an enterprise that police ended is to be in the table than one that closed some other way. The table holds 98 police endings and 34 other closures, so if every police ending is in it, the table is missing about 34 (`R` - 1) of the others (more, if some police endings are missing too), and the true police share is 98 / (98 + 34 `R`). The intervals rescale the chart's own beta-binomial posterior; nothing is random.
+
+| Police endings are `R` times as likely to be documented | Other closures missing from the table (at least) | Police share of closed enterprises (80% interval) | Chance police ended most |
+|---|---:|---|---:|
+| 1 (as charted) | 0 | 74.0% (69.0-78.7) | >99% |
+| 1.5 | 17 | 65.5% (59.7-71.1) | >99% |
+| 2 | 34 | 58.7% (52.6-64.8) | 97% |
+| 3 | 68 | 48.7% (42.5-55.1) | 40% |
+| 4 | 102 | 41.6% (35.7-47.9) | 5% |
+| 6 | 170 | 32.2% (27.0-38.0) | <1% |
+| 10 | 306 | 22.2% (18.2-26.9) | <1% |
+
+Four smaller checks need no `R`. If the 20 enterprises still running all ended quietly, police would have ended 64% (59-69%) of all 152; if all ended by police, 77% (73-82%): that is right-censoring, not selection, and neither extreme takes the pooled share below a majority. Reclassifying 32 of the 98 police endings as something else would end the majority (66 of 132 is exactly half), and 11 would take the share below two-thirds; counting only arrests, takedowns and seizures, which leaves out the five sanctions and the six shutdowns under police pressure, gives 87 of 132: 66% (60-71%). The police endings are not independent draws: 27 of the 74 dated to the day fall on nine shared days (coordinated takedowns). Counting each shared day once gives 80 police endings against 34 other closures: 70% (64-75%), and "most" is lost at `R` of about 2.4. By sector (equal-tailed intervals, as in `results/c02_police.json`; the chart draws highest-density ones; "rows that would change it" is how many rows would have to be classed differently for police to have ended half or fewer, or more than half, whichever is not the case now):
+
+| Sector | Ended by police, of those that closed | Share (80% interval) | Chance police ended most | Rows that would change it | Still running |
+|---|---|---|---:|---:|---:|
+| Hacking and carding forums | 14 of 14 | 95.5% (85.8-99.3) | >99% | 7 | 1 |
+| Botnets and malware services | 24 of 25 | 93.6% (85.8-97.9) | >99% | 12 | 1 |
+| Other criminal services | 23 of 25 | 89.8% (80.8-95.7) | >99% | 11 | 3 |
+| Money-laundering services | 11 of 13 | 81.4% (66.3-91.9) | 99% | 5 | 1 |
+| Darknet markets | 15 of 31 | 48.5% (37.4-59.6) | 43% | 1 | 0 |
+| Ransomware brands | 11 of 24 | 46.1% (33.8-58.7) | 35% | 2 | 14 |
+
+How to read it:
+
+- **The direction survives a documentation gap of two; the size does not.** At `R` = 2 police still ended most (59%, a 97% chance), but "most" is lost at `R` of about 2.9 (below 2.2 the chance of a majority is above 90%, above 3.7 it is below 10%), when the table would be missing at least 64 other closures, a third of all closures. A reading of "a large majority" as two-thirds or more is lost at about 1.4. So 74% is the share among documented closures, and it falls as soon as `R` rises above 1.
+- **The data cannot say what `R` is.** Each row has one source, so no overlap between sources is available to estimate what is missing. The table gives the threshold and leaves the judgement to the reader: quiet closures would have to be documented about a third as often as police endings.
+- **Four sectors hold the pooled share up and two set its tipping point.** Police ended 85 to 100% of the closed forums, botnets, laundering services and other services, and no gap below about 4 changes that for any of them. Darknet markets and ransomware brands hold 29 of the table's 34 other closures, so a missing-closures problem would most likely sit there.
+- **"Not most" is not established for darknet markets and ransomware brands.** The data say about half: the chance that police ended a majority is 43% and 35%, and one row (darknet markets) or two (ransomware brands) classified differently would put police on the other side of half. A documentation gap would lower both shares further, so it cannot rescue "most" for either. Censoring works the other way for ransomware: 14 of its 38 brands are still running, and if nine of them end by police, police will have ended most of all 38. No darknet market is still running. So the data support "about half" for both, and no more.
+
+### Chart 5: how many missing cut-offs would it take?
+
+Source: [`results/sensitivity_c05.json`](../results/sensitivity_c05.json). The chart shows only operations that a provider cut off and whose report gives a duration. Two kinds of missing case push in opposite directions. *Hidden long cases* (operations that ran 180 days or more before a cut-off that no report describes, or that have not been cut off yet) can only add to the long end. *Hidden quick catches* (bans within a month that no report mentions, easy to leave out of a threat report) are what could overturn the picture. The tables add `Q` quick catches, or `H` long cases, to the nine and recompute the chart's two shares by the chart's method, with its Monte Carlo replaced by the distribution it samples from, so the numbers are exact. The first row of each is the chart's 41% and 44% (the exact lower end of the first is 23%, against 22% by Monte Carlo). A threshold below is where the median of a share crosses the line.
+
+| Hidden quick catches `Q` | Cases | Cut off within 30 days (80% interval) | Ran 180 days or more |
+|---:|---:|---|---|
+| 0 (as charted) | 9 | 41% (23-62) | 44% (25-64) |
+| 2 | 11 | 51% (33-69) | 37% (21-55) |
+| 4 | 13 | 58% (40-74) | 32% (17-48) |
+| 6 | 15 | 63% (47-77) | 28% (15-43) |
+| 9 | 18 | 69% (54-81) | 23% (13-37) |
+| 12 | 21 | 73% (60-84) | 20% (11-33) |
+| 18 | 27 | 79% (68-87) | 16% (8-26) |
+
+| Hidden long cases `H` | Cases | Cut off within 30 days | Ran 180 days or more |
+|---:|---:|---|---|
+| 0 (as charted) | 9 | 41% (23-62) | 44% (25-64) |
+| 3 | 12 | 32% (17-50) | 57% (39-73) |
+| 6 | 15 | 26% (14-42) | 64% (49-78) |
+| 9 | 18 | 22% (11-36) | 70% (56-82) |
+| 18 | 27 | 15% (8-25) | 80% (69-88) |
+| 36 | 45 | 9% (5-16) | 87% (80-93) |
+
+Other checks: the share of all abusive operations on hosted models that providers cut off within 30 days, or before day 180, is the chart's 41% or 56% multiplied by `d`, the share they ever catch (at `d` = 0.5, 21% and 28%). Of the table's 81 rows, 36 are hacking, fraud or spying operations that an AI provider cut off; two of them are one joint report by OpenAI and Microsoft on five state actors, so there are 35 distinct operations. Nine give a duration the chart can use (Anthropic 6 of 11, OpenAI 1 of 18, Microsoft 1 of 2, Google 1 of 4), one states a duration that the chart leaves out (a ban at sign-up, zero days), and 25 state none. Adding the four cut-offs the chart leaves out that do state a duration (three quick: an influence operation, a ban before any prompt and a model-copying campaign; one that ran 16 months, an influence operation) gives 51% (34-68%) within 30 days and 39% (23-56%) for 180 days or more, from 13 cases.
+
+Which cases carry the shares (the chart's method on the nine with some left out):
+
+| Cases left out of the nine | Cases left | Cut off within 30 days (80% interval) | Ran 180 days or more |
+|---|---:|---|---|
+| none (as charted) | 9 | 41% (23-62) | 44% (25-64) |
+| any one case | 8 | 35% to 46% (medians) | 38% to 49% (medians) |
+| the three that are certainly within a month (GTG-2002, GTG-50020, GTG-50014) | 6 | 17% (4-41) | 62% (38-82) |
+| the three long cases that are not Anthropic's (AkiraBot, EvilTokens, Xanthorox) | 6 | 58% (34-80) | 23% (8-45) |
+| both groups | 3 | 30% (6-63) | 39% (14-68) |
+
+How to read it:
+
+- **The ratio is fragile; the floor has little margin.** "As many run for half a year" (four against three or four) describes nine cases and moves either way with a few more. Two hidden quick catches make most cut-offs quick (51% against 37%), five make them twice as common as the long ones, and five hidden long cases make the long ones twice as common as the quick ones. "A quarter ran six months or more" holds at the median until eight quick catches are hidden ("a fifth": until 13), but the low end of the chart's own interval is already 25%, so on that reading it fails at one hidden quick catch ("a fifth": at three). Of the table's 35 cut-offs, 25 state no duration, so 13 quick catches among them cannot be ruled out. No number of hidden long cases breaks the long end. "Some within weeks" (three cases, and a ban before any prompt) does not depend on either.
+- **No length of tail matters; counts do.** The claims are counts above and below 30 and 180 days. A longer run for a long case, or an operation still running, changes nothing.
+- **The chart cannot say how often providers catch abuse.** It shows how long the stopped operations took. For half of all abusive operations to be cut off before day 180, providers would have to catch 89% of them (`d` = 0.89); within a month, no `d` suffices. The six operations in the right-hand panel are ones someone documented, not a sample of the uncaught, so they give no estimate of `d`.
+- **The table cannot say which way the missing durations lean.** For 17 of the 25 cut-offs without a duration the table has no start date and no statement of how long the operation ran. If all 25 had been quick, 83% of the 35 would have been within a month; if none had been, 11%.
+- **The nine measure different things, and the shares depend on which are kept.** Of the three that are certainly within a month, GTG-2002's 30 days is the window in which its victims were hit ("in just the last month"), GTG-50020's 26 days is how long its network addresses were active, and GTG-50014's 21 days is how long one stolen key was used (its addresses were active for 75 days). Of the three long cases that are not Anthropic's, AkiraBot was found by SentinelOne before OpenAI disabled its key, EvilTokens ended in a court-ordered seizure and arrests, and Xanthorox's ten months is how long a product was on sale before Google disabled its accounts. Leaving out any one case moves the medians by at most 6 points; leaving out the first three gives 17% within a month and 62% for six months or more, and leaving out the second three 58% and 23%. Those swings (17 to 24 points) are larger than the 7 to 13 points that two or three hidden cases cause. The chart leaves out OpenAI's scam-ring bans because "in the last three months" is a reporting window, not a duration; GTG-2002's "in just the last month" is the same kind of statement. Six of the nine are Anthropic's, so the chart also partly shows how that provider detects and reports: its six include three certainly within a month and one at 180 days or more (upper bounds 21 to 225 days), and the other three all ran 180 days or more (upper bounds 213 to 315).
 
 ### Chart 6: classification and dating
 
@@ -232,3 +307,19 @@ Source: [`results/sensitivity_c08.json`](../results/sensitivity_c08.json).
 | 2009-11 (from the Pentagon's October 2009 policy memo) | 0.917 | 0.448 | 2029.5 (2027.2-2037.9) | 55% |
 
 With the earlier date, the fit without generative AI no longer finds a shrinking lag (probability 0.45), so the case that the lag is shrinking rests on generative AI alone.
+
+### Chart 9: what hidden and famous campaigns can and cannot change
+
+Source: [`results/sensitivity_c09.json`](../results/sensitivity_c09.json). Chart 9 is not a model, so there is no number to move; the check asks what each claim needs. Hidden campaigns have no dwell time yet, or a longer one, so they can only add long cases. Famous campaigns are over-represented, which would overstate how typical a long dwell is.
+
+| Campaign | Worked | Infected | Share worked | Undercount of those worked to reach 10% | ... to reach 50% |
+|---|---|---|---|---|---|
+| SolarWinds | about 109 (100 companies, 9 federal agencies) | 18,000 (17,000 on SolarWinds' own figure) | 0.6% (0.6%) | 16.5 times (15.6) | 83 times (78) |
+| Equation Group | more than 500 | "tens of thousands": 20,000 (10,000, read loosely) | 2.5% (5%) | 4 times (2) | 20 times (10) |
+
+How to read it:
+
+- **"Can stay hidden for years" cannot be weakened by hidden campaigns.** It is an existence claim and fails only if the long cases are wrong. Equation Group's 14 years would have to be overstated seven-fold to fall under two years, Regin's 11 years 5.5-fold, and Volt Typhoon's "at least five years" 2.5-fold. Each needs care. Equation Group's and Regin's starts are Kaspersky's dating of the malware ("dating back to 2001"; "timestamps dating back to 2003"), not a known intrusion into a victim, and Kaspersky knew of Regin from spring 2012, 8.8 years after its earliest timestamp. Volt Typhoon's five years is CISA's, the NSA's and the FBI's statement about some victims' networks; the table's own dates for the campaign, June 2021 to May 2023, give 1.9 years. Two of the three are Kaspersky reports; without Kaspersky's (and Flame, also Kaspersky's) the longest case is Volt Typhoon, a lower bound.
+- **The nine are not the longest of the table.** Eleven campaigns have a dwell figure; the two left out lie in the middle (Flame, 2.3 years, grade C; Salt Typhoon, 1 to 2 years, reported at second hand). Four more (Duqu 2.0, Snake, APT10 Cloud Hopper, UNC3886) have dates but no figure, because "discovery" is not well defined for them, and are not used; their dates would give 0.9, 18.9, 10.8 and 3.0 years. Four of the 11 ran at least two years and three at least five.
+- **They are not typical either.** The median of the nine is 1.08 years and of all 11 is 1.27 years, three to four times Mandiant's median of 122 days for espionage cases. Two of the nine charted years are not what the table's own start and discovery dates give: Volt Typhoon's (above) and BRICKSTORM's 1.08, which is Mandiant's average per victim (March to September 2025 is 0.5). On the table's own dates the median of the nine is 0.94 years, 2.8 times Mandiant's, and two campaigns reach two years, not three. That is the famous-case bias the note names, and why the chart says "can", not "usually". Mandiant's median is itself a median of discovered intrusions, so counting undiscovered ones can only raise it: there is no tipping point in that direction.
+- **"Only a sliver" is secure for SolarWinds and loose for Equation Group.** For SolarWinds the number worked would have to be undercounted 16-fold to reach one in ten, and the table records nothing near that (Microsoft's own count of customers "targeted more precisely" was 40, which gives 0.2%). For Equation Group the comparison is Kaspersky's count of victims it saw against an estimate of infections, so it is looser: a two- to four-fold undercount would do it.

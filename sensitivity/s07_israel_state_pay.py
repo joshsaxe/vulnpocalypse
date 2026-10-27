@@ -5,7 +5,7 @@ engineers; against Mossad and Shin Bet alone the ratio is about 1.7."  Chart 7 u
 (data/F_pay.csv rows 32-35: IDF career personnel's starting and average pay, the Mossad and Shin Bet average, and IDF
 civilian staff's average). This script repeats the Chart 7 measurement model (same code, same seed, the same random
 stream in the same order) with only the Mossad and Shin Bet row (34) on the state side, and reports the private-to-state
-ratio. The 'charted' rows must reproduce results/c07_pay.json; the script stops if they do. Runs in a second or two.
+ratio. The 'charted' rows must reproduce results/c07_pay.json; the script stops if they do not. Runs in a second or two.
 """
 import json
 import sys

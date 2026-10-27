@@ -9,7 +9,7 @@ Unless a file says otherwise, the following are licensed under the **Creative Co
 * the compiled data tables the author built (`data/`: the CSV tables, `sources.csv`, `extra_sources.csv` and `G_vendor_ai_sources.md`),
 * the numbers the scripts write (`results/`) and the reference numbers (`tests/`).
 
-You may share and adapt this material, including commercially, if you credit "Joshua Saxe, *If the vulnpocalypse is the apocalypse, where are the demon hordes?*", link the licence and say if you made changes.
+You may share and adapt this material, including commercially, if you credit "Joshua Saxe, *If the vulnpocalypse is the apocalypse, where are the agentic attacker hordes?*", link the licence and say if you made changes.
 
 ## What this licence does not cover
 

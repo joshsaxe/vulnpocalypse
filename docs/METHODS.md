@@ -10,14 +10,14 @@ For the models in more detail (priors, seeds, what each script writes, how each 
 |---|---|---|---|
 | Lede: the price of a hack | `c00_lede_cost.py` | [`c00_lede_cost.json`](../results/c00_lede_cost.json) |  |
 | 1. Losses to fraud and hacking | `c01_loss_trend.py` + `c01_losses.py` | [`c01_loss_trend.json`](../results/c01_loss_trend.json) | [`s01_loss_trend.py`](../sensitivity/s01_loss_trend.py) |
-| 2. How criminal enterprises end | `c02_police.py` | [`c02_police.json`](../results/c02_police.json) |  |
+| 2. How criminal enterprises end | `c02_police.py` | [`c02_police.json`](../results/c02_police.json) | [`s02_police_selection.py`](../sensitivity/s02_police_selection.py) |
 | 3. What crime pays | `c03_talent.py` | [`c03_talent.json`](../results/c03_talent.json) |  |
 | 4. Amdahl's law for a ransomware gang | `c04_amdahl.py` | [`c04_amdahl.json`](../results/c04_amdahl.json) |  |
-| 5. Access to hosted AI | `c05_inference.py` | [`c05_inference.json`](../results/c05_inference.json) |  |
+| 5. Access to hosted AI | `c05_inference.py` | [`c05_inference.json`](../results/c05_inference.json) | [`s05_provider_selection.py`](../sensitivity/s05_provider_selection.py) |
 | 6. How fast criminals adopt technology | `c06_attacker_lag.py` | [`c06_attacker_lag.json`](../results/c06_attacker_lag.json) | [`s06_adoption_lags.py`](../sensitivity/s06_adoption_lags.py) |
 | 7. Public versus private pay | `c07_pay.py` | [`c07_pay.json`](../results/c07_pay.json) | [`s07_israel_state_pay.py`](../sensitivity/s07_israel_state_pay.py) |
 | 8. How far governments lag business | `c08_govlag.py` | [`c08_govlag.json`](../results/c08_govlag.json) | [`s08_open_source_dating.py`](../sensitivity/s08_open_source_dating.py) |
-| 9. How long state hackers stay hidden | `c09_state_patience.py` | [`c09_state_patience.json`](../results/c09_state_patience.json) |  |
+| 9. How long state hackers stay hidden | `c09_state_patience.py` | [`c09_state_patience.json`](../results/c09_state_patience.json) | [`s09_state_selection.py`](../sensitivity/s09_state_selection.py) |
 | 10. The odds that AI agents become routine | `c06_attacker_lag.py` + `c08_govlag.py` + `c10_odds.py` | [`c10_odds.json`](../results/c10_odds.json) |  |
 | 11. The defenders' build-up | `c11_defenders.py` | [`c11_defenders.json`](../results/c11_defenders.json) |  |
 | 12. AI-found flaws | `c12_funnel.py` | [`c12_funnel.json`](../results/c12_funnel.json) |  |
@@ -86,9 +86,10 @@ The data are the histories of 152 named enterprises in ten sectors (grouped into
 
 - **Run:** `python charts/c02_police.py` (or `make figures` for everything)
 - **Code:** [`charts/c02_police.py`](../charts/c02_police.py), [`common/lifespans.py`](../common/lifespans.py)
-- **Results:** [`results/c02_police.json`](../results/c02_police.json)
+- **Results:** [`results/c02_police.json`](../results/c02_police.json), [`results/sensitivity_c02.json`](../results/sensitivity_c02.json)
 - **Figure:** [`figures/c02_police.png`](../figures/c02_police.png) and [`figures/c02_police.svg`](../figures/c02_police.svg)
 - **Data:** [`data/B_enterprise_lifespans.csv`](../data/B_enterprise_lifespans.csv)
+- **Robustness check (added after the post; not quoted above):** [`sensitivity/s02_police_selection.py`](../sensitivity/s02_police_selection.py)
 - **Sources:** [bibliography page](sources/c02_police.md)
 - **Checked:** 23 numbers quoted in this section are recomputed by `make verify`
 
@@ -137,9 +138,10 @@ The data are AI providers’ disruption reports (Anthropic, OpenAI, Microsoft an
 
 - **Run:** `python charts/c05_inference.py` (or `make figures` for everything)
 - **Code:** [`charts/c05_inference.py`](../charts/c05_inference.py)
-- **Results:** [`results/c05_inference.json`](../results/c05_inference.json)
+- **Results:** [`results/c05_inference.json`](../results/c05_inference.json), [`results/sensitivity_c05.json`](../results/sensitivity_c05.json)
 - **Figure:** [`figures/c05_inference.png`](../figures/c05_inference.png) and [`figures/c05_inference.svg`](../figures/c05_inference.svg)
 - **Data:** [`data/D_platform_cases.csv`](../data/D_platform_cases.csv)
+- **Robustness check (added after the post; not quoted above):** [`sensitivity/s05_provider_selection.py`](../sensitivity/s05_provider_selection.py)
 - **Sources:** [bibliography page](sources/c05_inference.md)
 - **Checked:** 7 numbers quoted in this section are recomputed by `make verify`
 
@@ -208,9 +210,10 @@ Not an estimate: every number is a reported date or count. Each bar is the time 
 
 - **Run:** `python charts/c09_state_patience.py` (or `make figures` for everything)
 - **Code:** [`charts/c09_state_patience.py`](../charts/c09_state_patience.py)
-- **Results:** [`results/c09_state_patience.json`](../results/c09_state_patience.json)
+- **Results:** [`results/c09_state_patience.json`](../results/c09_state_patience.json), [`results/sensitivity_c09.json`](../results/sensitivity_c09.json)
 - **Figure:** [`figures/c09_state_patience.png`](../figures/c09_state_patience.png) and [`figures/c09_state_patience.svg`](../figures/c09_state_patience.svg)
 - **Data:** [`data/H_espionage_cases.csv`](../data/H_espionage_cases.csv), [`data/E_stage_times.csv`](../data/E_stage_times.csv)
+- **Robustness check (added after the post; not quoted above):** [`sensitivity/s09_state_selection.py`](../sensitivity/s09_state_selection.py)
 - **Sources:** [bibliography page](sources/c09_state_patience.md)
 - **Checked:** every number is a reported date or count; those typed in the script are compared with the table by `tools/check_inputs.py`
 
@@ -284,4 +287,5 @@ Every number in the appendix is recomputed from the results files by `python too
 - **Rounding is half-up.** The variant in Chart 6 that dates encrypt-and-ransom from 2006 gives 0.405, printed as 41%; Python's own `round()` would print 40%.
 - **Chart 2's intervals are highest-density intervals**, as the text says (stored as `police_share_of_closed_hdi80_pct`). The equal-tailed quantiles stored next to them (`police_share_of_ended_q`) are close for the middle sectors and up to four points lower at the bottom end for sectors where police ended nearly every closed enterprise.
 - **Charts 8 and 10: "mixes the two fits equally".** The two fits' draws are pooled with equal weight and then conditioned on "not yet" (a date after October 2026). The condition keeps about 70% of the draws of the fit with all rows and 90% of those of the fit without generative AI, so afterwards the mixture is about 44% the first and 56% the second.
+- **Charts 2, 5 and 9: how many missing cases it would take.** The appendix says these charts count only what was caught and that the shares probably flatter the police. Three checks added after the post was published put numbers on it. Police stop being the majority in Chart 2 at about 2.9 times the documentation rate of other closures (at least 64 other closures missing); "a large majority", read as two-thirds, goes at about 1.4. Two hidden quick catches would make most of Chart 5's cut-offs quick, while hidden long cases can only add to its long end; the nine cases also measure different things, and which are kept moves its shares by 17 to 24 points. Hidden campaigns cannot weaken Chart 9's "years", an existence claim that rests on three long cases (two of them Kaspersky's dating); it would fail only if they were overstated 2.5- to 7-fold. See [MODELS](MODELS.md#robustness-checks).
 - **A few robustness results are not in the appendix.** `sensitivity/s06_adoption_lags.py` also reports what happens if hijacked-gadget botnets are dated from the first Mirai sighting (the table's own 0.1 years) rather than from about 2014 (2.3 years), and if AI-written phishing takes the lag implied by calendar years (1.6 years) rather than the table's 2.5; both are in [MODELS](MODELS.md#robustness-checks).
