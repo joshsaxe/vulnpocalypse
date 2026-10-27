@@ -1,6 +1,8 @@
-<h1 align="center">If the vulnpocalypse is the apocalypse, where are the demon hordes?</h1>
+<h1 align="center">If the vulnpocalypse is the apocalypse, where are the agentic attacker hordes?</h1>
 
 <p align="center"><b>The data, code and sources behind the post, by Joshua Saxe</b></p>
+
+<p align="center"><a href="https://joshuasaxe181906.substack.com/p/if-the-vulnpocalypse-is-the-apocalypse">Read the companion Substack post</a></p>
 
 <p align="center">
   <a href="LICENSE"><img alt="Code: MIT" src="https://img.shields.io/badge/code-MIT-2b7a3d"></a>
@@ -194,4 +196,4 @@ The robustness checks in [`sensitivity/`](sensitivity), tabulated on the [model 
 
 ## Citing
 
-Saxe, J. (2026). *If the vulnpocalypse is the apocalypse, where are the demon hordes? Data, code and annotated bibliography.* See [`CITATION.cff`](CITATION.cff); GitHub's "Cite this repository" button reads it.
+Saxe, J. (2026). *If the vulnpocalypse is the apocalypse, where are the agentic attacker hordes? Data, code and annotated bibliography.* See [`CITATION.cff`](CITATION.cff); GitHub's "Cite this repository" button reads it.

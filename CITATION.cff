@@ -1,7 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite the post and this repository."
-title: "If the vulnpocalypse is the apocalypse, where are the demon hordes? Data, code and annotated bibliography"
+title: "If the vulnpocalypse is the apocalypse, where are the agentic attacker hordes? Data, code and annotated bibliography"
 type: dataset
+repository-code: https://github.com/joshsaxe/vulnpocalypse
+url: https://joshuasaxe181906.substack.com/p/if-the-vulnpocalypse-is-the-apocalypse
 authors:
   - family-names: Saxe
     given-names: Joshua
@@ -12,7 +14,7 @@ license:
   - CC-BY-4.0
 abstract: >-
   Evidence tables, model code, chart code and an annotated bibliography behind the thirteen figures of the post
-  "If the vulnpocalypse is the apocalypse, where are the demon hordes?": losses to cybercrime, how criminal enterprises
+  "If the vulnpocalypse is the apocalypse, where are the agentic attacker hordes?": losses to cybercrime, how criminal enterprises
   end, what crime pays, how far AI can speed up a ransomware gang, how fast criminals and governments adopt new
   technology, how long state hackers stay hidden, and how defenders compare with attackers. Everything is rebuilt from
   the tables with one command, and a check compares the rebuilt numbers with the ones in the post.

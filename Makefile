@@ -1,4 +1,4 @@
-# If the vulnpocalypse is the apocalypse, where are the demon hordes?  Rebuild every figure from the data tables.
+# If the vulnpocalypse is the apocalypse, where are the agentic attacker hordes?  Rebuild every figure from the data tables.
 #
 #   make help          list the targets
 #   make figures       draw all 13 figures, reusing the saved Chart 1 model fit              (about 2 minutes)

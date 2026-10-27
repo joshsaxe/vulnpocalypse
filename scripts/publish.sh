@@ -18,7 +18,7 @@ VISIBILITY="--private"
 OWNER=""
 AS_ME=0
 DRY=0
-DESCRIPTION='Data, code and annotated bibliography behind the post "If the vulnpocalypse is the apocalypse, where are the demon hordes?"'
+DESCRIPTION='Data, code and annotated bibliography behind the post "If the vulnpocalypse is the apocalypse, where are the agentic attacker hordes?"'
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
