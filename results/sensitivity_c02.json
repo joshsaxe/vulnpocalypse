@@ -1,0 +1,227 @@
+{
+ "charted": {
+  "closed": 132,
+  "police": 98,
+  "other": 34,
+  "still_running": 20,
+  "police_share_q": [
+   0.69,
+   0.74,
+   0.787
+  ]
+ },
+ "documentation_gap": {
+  "grid": [
+   {
+    "R": 1,
+    "other_closures_missing_at_least": 0,
+    "police_share_q": [
+     0.6895,
+     0.74,
+     0.7865
+    ],
+    "p_police_majority": 1.0
+   },
+   {
+    "R": 1.5,
+    "other_closures_missing_at_least": 17,
+    "police_share_q": [
+     0.5969,
+     0.6549,
+     0.7107
+    ],
+    "p_police_majority": 0.9997
+   },
+   {
+    "R": 2,
+    "other_closures_missing_at_least": 34,
+    "police_share_q": [
+     0.5262,
+     0.5873,
+     0.6482
+    ],
+    "p_police_majority": 0.9668
+   },
+   {
+    "R": 3,
+    "other_closures_missing_at_least": 68,
+    "police_share_q": [
+     0.4254,
+     0.4868,
+     0.5512
+    ],
+    "p_police_majority": 0.3952
+   },
+   {
+    "R": 4,
+    "other_closures_missing_at_least": 102,
+    "police_share_q": [
+     0.357,
+     0.4157,
+     0.4795
+    ],
+    "p_police_majority": 0.0468
+   },
+   {
+    "R": 6,
+    "other_closures_missing_at_least": 170,
+    "police_share_q": [
+     0.2701,
+     0.3217,
+     0.3805
+    ],
+    "p_police_majority": 0.0002
+   },
+   {
+    "R": 10,
+    "other_closures_missing_at_least": 306,
+    "police_share_q": [
+     0.1817,
+     0.2216,
+     0.2693
+    ],
+    "p_police_majority": 0.0
+   }
+  ],
+  "tipping_points": {
+   "R_majority_lost_at_observed_counts": 2.8824,
+   "other_closures_missing_at_least_then": 64,
+   "missing_share_of_all_closures_then": 0.3265,
+   "R_median_share_is_half": 2.8461,
+   "R_90pct_sure_of_majority_below": 2.2209,
+   "R_10pct_sure_of_majority_above": 3.6848,
+   "R_median_share_is_two_thirds": 1.4231,
+   "R_median_share_is_three_quarters": 0.9487
+  }
+ },
+ "still_running": {
+  "all_end_quietly": {
+   "police_share_of_all_152": 0.6447,
+   "police_share_q": [
+    0.593,
+    0.6435,
+    0.6919
+   ]
+  },
+  "all_end_by_police": {
+   "police_share_of_all_152": 0.7763,
+   "police_share_q": [
+    0.7288,
+    0.7739,
+    0.8151
+   ]
+  }
+ },
+ "classification": {
+  "police_endings_that_would_have_to_be_other_for_no_majority": 32,
+  "police_endings_that_would_have_to_be_other_for_under_two_thirds": 11,
+  "strict_police_endings": 87,
+  "strict_police_share_q": [
+   0.6037,
+   0.6575,
+   0.7087
+  ],
+  "strict_police_share_point": 0.6591
+ },
+ "sectors": {
+  "Botnets and malware services": {
+   "closed": 25,
+   "police": 24,
+   "still_running": 1,
+   "police_share_q": [
+    0.8585,
+    0.9363,
+    0.9794
+   ],
+   "p_police_majority": 1.0,
+   "R_median_share_is_half": 14.6945,
+   "rows_to_reclassify_to_change_the_verdict": 12,
+   "running_that_would_have_to_end_by_police_for_most_of_all": 0
+  },
+  "Darknet markets": {
+   "closed": 31,
+   "police": 15,
+   "still_running": 0,
+   "police_share_q": [
+    0.3741,
+    0.4845,
+    0.596
+   ],
+   "p_police_majority": 0.43,
+   "R_median_share_is_half": 0.94,
+   "rows_to_reclassify_to_change_the_verdict": 1,
+   "running_that_would_have_to_end_by_police_for_most_of_all": null
+  },
+  "Hacking and carding forums": {
+   "closed": 14,
+   "police": 14,
+   "still_running": 1,
+   "police_share_q": [
+    0.8577,
+    0.9548,
+    0.993
+   ],
+   "p_police_majority": 1.0,
+   "R_median_share_is_half": 21.1443,
+   "rows_to_reclassify_to_change_the_verdict": 7,
+   "running_that_would_have_to_end_by_police_for_most_of_all": 0
+  },
+  "Money-laundering services": {
+   "closed": 13,
+   "police": 11,
+   "still_running": 1,
+   "police_share_q": [
+    0.6628,
+    0.8135,
+    0.9185
+   ],
+   "p_police_majority": 0.9935,
+   "R_median_share_is_half": 4.3627,
+   "rows_to_reclassify_to_change_the_verdict": 5,
+   "running_that_would_have_to_end_by_police_for_most_of_all": 0
+  },
+  "Other criminal services*": {
+   "closed": 25,
+   "police": 23,
+   "still_running": 3,
+   "police_share_q": [
+    0.808,
+    0.8985,
+    0.9568
+   ],
+   "p_police_majority": 1.0,
+   "R_median_share_is_half": 8.8497,
+   "rows_to_reclassify_to_change_the_verdict": 11,
+   "running_that_would_have_to_end_by_police_for_most_of_all": 0
+  },
+  "Ransomware brands": {
+   "closed": 24,
+   "police": 11,
+   "still_running": 14,
+   "police_share_q": [
+    0.3377,
+    0.4605,
+    0.5867
+   ],
+   "p_police_majority": 0.345,
+   "R_median_share_is_half": 0.8537,
+   "rows_to_reclassify_to_change_the_verdict": 2,
+   "running_that_would_have_to_end_by_police_for_most_of_all": 9
+  }
+ },
+ "clustering": {
+  "police_endings_dated_to_the_day": 74,
+  "on_a_day_shared_with_another_police_ending": 27,
+  "shared_days": 9,
+  "each_shared_day_counted_once": {
+   "police": 80,
+   "other": 34,
+   "police_share_q": [
+    0.643,
+    0.6994,
+    0.752
+   ],
+   "R_majority_lost": 2.3529
+  }
+ }
+}

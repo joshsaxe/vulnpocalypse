@@ -39,7 +39,8 @@ from common.paths import DATA, RESULTS
 
 REFERENCE = ROOT / "tests" / "reference_numbers.json"
 LEDGER = ROOT / "tests" / "appendix_a_numbers.csv"
-SENSITIVITY = ("sensitivity_c01.json", "sensitivity_c06.json", "sensitivity_c07.json", "sensitivity_c08.json")
+SENSITIVITY = ("sensitivity_c01.json", "sensitivity_c02.json", "sensitivity_c05.json", "sensitivity_c06.json",
+               "sensitivity_c07.json", "sensitivity_c08.json", "sensitivity_c09.json")
 REL_TOL, ABS_TOL = 0.05, 0.002        # for a stored result: inside 5% (plus a hair for tiny numbers) is Monte Carlo noise
 
 # ------------------------------------------------------------------------------------------------------ helpers

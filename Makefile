@@ -3,7 +3,7 @@
 #   make help          list the targets
 #   make figures       draw all 13 figures, reusing the saved Chart 1 model fit              (about 2 minutes)
 #   make all           refit the Chart 1 model first, then draw all 13 figures               (about 2 minutes)
-#   make sensitivity   run the four robustness checks (each reruns the chart it checks)      (about 5 minutes)
+#   make sensitivity   run the seven robustness checks (each reruns the chart it checks)     (about 6 minutes)
 #   make verify        check the numbers: results against the reference, typed numbers against the data,
 #                      the bibliography against the tables, and every link in the Markdown files
 #   make bibliography  rebuild docs/BIBLIOGRAPHY.md, docs/sources/ and data/sources.csv from the data tables
@@ -29,7 +29,7 @@ figures:
 	$(PY) tools/run_all.py --figures -j $(JOBS)
 
 sensitivity:
-	$(PY) tools/run_all.py --only s01 s06 s07 s08 -j $(JOBS)
+	$(PY) tools/run_all.py --only s01 s02 s05 s06 s07 s08 s09 -j $(JOBS)
 
 verify:
 	$(PY) tools/verify_numbers.py

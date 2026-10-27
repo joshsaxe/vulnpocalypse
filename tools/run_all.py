@@ -5,7 +5,7 @@
     python tools/run_all.py --figures       # draw the figures only (reuses results/c01_loss_trend*)
     python tools/run_all.py --only c04 c07  # just those charts (a prefix of the script name is enough)
     python tools/run_all.py -j 2            # run two independent scripts at a time (about 2 minutes on two cores)
-    python tools/run_all.py --sensitivity   # also run the four robustness checks in sensitivity/ (about 5 more minutes at -j 2)
+    python tools/run_all.py --sensitivity   # also run the seven robustness checks in sensitivity/ (about 6 more minutes at -j 2)
     python tools/run_all.py --only s06      # one robustness check (it first reruns the chart it checks)
 
 Every script is self-contained: it reads data/*.csv, writes its numbers to results/ and its picture to figures/.
@@ -23,7 +23,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
-# (name, script, names it must wait for); the last four are robustness checks, run only with --sensitivity or --only
+# (name, script, names it must wait for); the last seven are robustness checks, run only with --sensitivity or --only
 STEPS = [
     ("model_c01", "models/c01_loss_trend.py", []),
     ("c00_lede_cost", "charts/c00_lede_cost.py", []),
@@ -40,11 +40,14 @@ STEPS = [
     ("c11_defenders", "charts/c11_defenders.py", []),
     ("c12_funnel", "charts/c12_funnel.py", []),
     ("s01_loss_trend", "sensitivity/s01_loss_trend.py", []),
+    ("s02_police_selection", "sensitivity/s02_police_selection.py", ["c02_police"]),
+    ("s05_provider_selection", "sensitivity/s05_provider_selection.py", ["c05_inference"]),
     ("s06_adoption_lags", "sensitivity/s06_adoption_lags.py", ["c06_attacker_lag"]),
     ("s07_israel_state_pay", "sensitivity/s07_israel_state_pay.py", ["c07_pay"]),
     ("s08_open_source_dating", "sensitivity/s08_open_source_dating.py", ["c08_govlag"]),
+    ("s09_state_selection", "sensitivity/s09_state_selection.py", ["c09_state_patience"]),
 ]
-OPTIONAL = {"s01_loss_trend", "s06_adoption_lags", "s07_israel_state_pay", "s08_open_source_dating"}
+OPTIONAL = {s[0] for s in STEPS if s[1].startswith("sensitivity/")}
 
 
 def run_one(name: str, script: str) -> tuple[str, bool, float, str]:
